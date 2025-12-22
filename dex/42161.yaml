@@ -377,10 +377,10 @@ pairs:
   - token0: "0x0b2b2b2076d95dda7817e785989fe353fe955ef9"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
-      - pool: "0x7f8a9bb1b22e5bf8cbb30c4c752bb7f01bb5cac54f66e15381099540f61828a5"
-        protocol: uniswapv4-error
       - protocol: uniswapv4
         pool: "0x7f8a9bb1b22e5bf8cbb30c4c752bb7f01bb5cac54f66e15381099540f61828a5"
+      - pool: "0x7f8a9bb1b22e5bf8cbb30c4c752bb7f01bb5cac54f66e15381099540f61828a5"
+        protocol: uniswapv4-error
   - token0: "0x0b3547cd0e14e7d42f8921b0c370fdfd708bff6c"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -691,6 +691,8 @@ pairs:
         pool: "0xeeaa3e45c763c0c837c49fa014ca1cc179753077"
       - protocol: uniswapv4
         pool: "0x8a2b9af9c42be7d098aa2df9df570a936dd6b5dc10d879a2fa48e8bf1fb6777b"
+      - protocol: uniswapv4
+        pool: "0xc74a68ae928685ddb60909c648af62d2353b9d0121a4d5ff5e99e06d12a5e2b9"
   - token0: "0x10393c20975cf177a3513071bc110f7962cd67da"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -1312,6 +1314,11 @@ pairs:
     routers:
       - protocol: standard-4626
         pool: "0x1a996cb54bb95462040408c06122d45d6cdb6096"
+  - token0: "0x1ad1db091c14c4f5a988b58ac8a34fb01f672a8a"
+    token1: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x80be37f377992caab0c21fbbe7f71c20fed5d79d"
   - token0: "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -1392,6 +1399,8 @@ pairs:
         pool: "0xd615c2481e849dd39ee664efe46e0c036d90692f"
         router: "0xb8fc6bf89e16e66b5fa9aa44b8393a588cf1e77c"
         factory: "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"
+      - protocol: uniswapv4
+        pool: "0x8879c2400cdcbe07faf2e747d2ca3841eb45ca570e1f620032ea1b2d0282fcc3"
   - token0: "0x1cd9a56c8c2ea913c70319a44da75e99255aa46f"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
@@ -1609,6 +1618,11 @@ pairs:
         pool: "0x5f14f0362c7317ef5a15668637c9fbfec53194c6"
         router: "0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24"
         factory: "0xf1d7cc64fb4452f05c498126312ebe29f30fbcf9"
+  - token0: "0x2297aebd383787a160dd0d9f71508148769342e3"
+    token1: "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xcf2f020eeee1c1774c86ea70691913ae5e8affcb"
   - token0: "0x2297aebd383787a160dd0d9f71508148769342e3"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -4880,6 +4894,8 @@ pairs:
   - token0: "0x6db8b088c4d41d622b44cd81b900ba690f2d496c"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
+      - protocol: uniswapv3
+        pool: "0x3ffe88014c319583c256c3819af68ba5d9a9ed69"
       - protocol: pancakev3
         pool: "0x94aaa2497a16322fe673f24bbe4ecb300656978b"
         router: "0x47e1fa0cd66610dde6497cfcf58d0da9070044dd"
@@ -6749,13 +6765,13 @@ pairs:
         pool: "0x7fcdc35463e3770c2fb992716cd070b63540b947"
         router: "0xb8fc6bf89e16e66b5fa9aa44b8393a588cf1e77c"
         factory: "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"
-      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
-        protocol: renegade
-      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
-        protocol: bebop
       - protocol: cross-market
         pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
         fee: 50
+      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+        protocol: bebop
+      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+        protocol: renegade
       - protocol: algebrav3
         pool: "0xb1026b8e7276e7ac75410f1fcbbe21796e8f7526"
         router: "0x1f721e2e82f6676fce4ea07a5958cf098d339e18"
@@ -9042,9 +9058,9 @@ pairs:
         router: "0x5e325eda8064b456f4781070c0738d849c824258"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - pool: "0x912ce59144191c1204e64559fe8253a0e49e6548"
-        protocol: renegade
-      - pool: "0x912ce59144191c1204e64559fe8253a0e49e6548"
         protocol: bebop
+      - pool: "0x912ce59144191c1204e64559fe8253a0e49e6548"
+        protocol: renegade
       - protocol: pancakev3
         pool: "0x93cce474015007b38da0ecea96671ee4dc3d40ad"
         router: "0x8331721c3dff00830140402214e4f73c94283256"
@@ -9921,9 +9937,9 @@ pairs:
         router: "0x9d40b76d9869fe4591b6894732cf5355dd5283bf"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - pool: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
-        protocol: bebop
-      - pool: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
         protocol: renegade
+      - pool: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
+        protocol: bebop
       - pool: "0xdf143f7041369841f71fdd966cffff626b3c119d9444326e6cc348dbc5026f55"
         protocol: uniswapv4
   - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
@@ -9988,9 +10004,9 @@ pairs:
         router: "0x5f221d04abb2e47d6659dd753673dd5637cb2cae"
         factory: "0xaa2cd7477c451e703f3b9ba5663334914763edf8"
       - pool: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
-        protocol: bebop
-      - pool: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
         protocol: renegade
+      - pool: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+        protocol: bebop
       - pool: "0x09588c415f6c809de684d3dd749e76d6bf0c12ac37d1d59a79e746013384a722"
         protocol: uniswapv4
       - pool: "0x13fd8faf63c1b0dbd44157df1a390224d734bdcf1f60451fb84a8b48dd3d388a"
@@ -10223,6 +10239,11 @@ pairs:
         pool: "0x25cafa8e0b25a1c63aee52288f825bf99b36f3a8"
         router: "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"
         factory: "0xc35dadb65012ec5796536bd9864ed8773abc74c4"
+  - token0: "0xc4c2ede4f6fd623acc86c492bdf099b3ba2b8303"
+    token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x5f6380eee9a2c899d2aebee09d08be67f19ceee99ff09a3cf612a85e7d4d5370"
   - token0: "0xc701f86e6d242b97d3035f6c2cecaf8e7087e898"
     token1: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     routers:
