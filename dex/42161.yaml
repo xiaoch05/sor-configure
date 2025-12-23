@@ -377,10 +377,10 @@ pairs:
   - token0: "0x0b2b2b2076d95dda7817e785989fe353fe955ef9"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
-      - protocol: uniswapv4
-        pool: "0x7f8a9bb1b22e5bf8cbb30c4c752bb7f01bb5cac54f66e15381099540f61828a5"
       - pool: "0x7f8a9bb1b22e5bf8cbb30c4c752bb7f01bb5cac54f66e15381099540f61828a5"
         protocol: uniswapv4-error
+      - protocol: uniswapv4
+        pool: "0x7f8a9bb1b22e5bf8cbb30c4c752bb7f01bb5cac54f66e15381099540f61828a5"
   - token0: "0x0b3547cd0e14e7d42f8921b0c370fdfd708bff6c"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -2844,6 +2844,8 @@ pairs:
         pool: "0xbbf3209130df7d19356d72eb8a193e2d9ec5c234"
         router: "0x8113c9251d58fd1767de65d76f1b0cb7365f1830"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+      - protocol: uniswapv4
+        pool: "0x7d109980fc7eba2111f072306c5141c71b9d878d76bd0336c97681e42405a120"
   - token0: "0x37a645648df29205c6261289983fb04ecd70b4b3"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
@@ -3084,6 +3086,11 @@ pairs:
         pool: "0xc76ccfcb48c423127672bdb9c1d6c80d3f945295"
         router: "0x16e71b13fe6079b4312063f7e81f76d165ad32ad"
         factory: "0xac2ee06a14c52570ef3b9812ed240bce359772e7"
+  - token0: "0x3e76bb02286bfeaa89dd35f11253f2cbce634f91"
+    token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x2a0c9a36a640797a8430a218428f3f3dd3739ac6"
   - token0: "0x3eabe18eae267d1b57f917aba085bb5906114600"
     token1: "0x912ce59144191c1204e64559fe8253a0e49e6548"
     routers:
@@ -6765,13 +6772,13 @@ pairs:
         pool: "0x7fcdc35463e3770c2fb992716cd070b63540b947"
         router: "0xb8fc6bf89e16e66b5fa9aa44b8393a588cf1e77c"
         factory: "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"
+      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+        protocol: renegade
+      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+        protocol: bebop
       - protocol: cross-market
         pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
         fee: 50
-      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
-        protocol: bebop
-      - pool: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
-        protocol: renegade
       - protocol: algebrav3
         pool: "0xb1026b8e7276e7ac75410f1fcbbe21796e8f7526"
         router: "0x1f721e2e82f6676fce4ea07a5958cf098d339e18"
@@ -9058,9 +9065,9 @@ pairs:
         router: "0x5e325eda8064b456f4781070c0738d849c824258"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - pool: "0x912ce59144191c1204e64559fe8253a0e49e6548"
-        protocol: bebop
-      - pool: "0x912ce59144191c1204e64559fe8253a0e49e6548"
         protocol: renegade
+      - pool: "0x912ce59144191c1204e64559fe8253a0e49e6548"
+        protocol: bebop
       - protocol: pancakev3
         pool: "0x93cce474015007b38da0ecea96671ee4dc3d40ad"
         router: "0x8331721c3dff00830140402214e4f73c94283256"
@@ -9937,9 +9944,9 @@ pairs:
         router: "0x9d40b76d9869fe4591b6894732cf5355dd5283bf"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - pool: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
-        protocol: renegade
-      - pool: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
         protocol: bebop
+      - pool: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
+        protocol: renegade
       - pool: "0xdf143f7041369841f71fdd966cffff626b3c119d9444326e6cc348dbc5026f55"
         protocol: uniswapv4
   - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
@@ -10004,9 +10011,9 @@ pairs:
         router: "0x5f221d04abb2e47d6659dd753673dd5637cb2cae"
         factory: "0xaa2cd7477c451e703f3b9ba5663334914763edf8"
       - pool: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
-        protocol: renegade
-      - pool: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
         protocol: bebop
+      - pool: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+        protocol: renegade
       - pool: "0x09588c415f6c809de684d3dd749e76d6bf0c12ac37d1d59a79e746013384a722"
         protocol: uniswapv4
       - pool: "0x13fd8faf63c1b0dbd44157df1a390224d734bdcf1f60451fb84a8b48dd3d388a"
