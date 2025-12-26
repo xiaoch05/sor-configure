@@ -2310,11 +2310,6 @@ pairs:
         pool: "0xfca081368259b4b4ef92e363453da4b70fee2798"
         router: "0x8331721c3dff00830140402214e4f73c94283256"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
-  - token0: "0x3404149e9ee6f17fb41db1ce593ee48fbdcd9506"
-    token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
-    routers:
-      - pool: "0xabc83857127431e86acb6f77e2119930de90ce5c89800637584547f5d8c2ff47"
-        protocol: uniswapv4
   - token0: "0x34772c4d12f288368aa35ae7bc527a6b2b3e8906"
     token1: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     routers:
@@ -2902,6 +2897,11 @@ pairs:
         decimals0: "1000000000000000000"
         decimals1: "1000000"
         stable: false
+  - token0: "0x46777c76dbbe40fabb2aab99e33ce20058e76c59"
+    token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x990d68c8c3edac9953b509a0ce6a7367b63df4a73346a9c30a98b1d819bf0e19"
   - token0: "0x46850ad61c2b7d64d08c9c754f45254596696984"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
@@ -3483,6 +3483,11 @@ pairs:
     routers:
       - pool: "0x6e02dbd29e84f8680535193fbe5db687087ab651ba1c77ccef7f19913e21b8b9"
         protocol: uniswapv4
+  - token0: "0x58538e6a46e07434d7e7375bc268d3cb839c0133"
+    token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xbf5beeda74df900e70f2ab4ce1c23a2487e592020c0408b598b10ad5ee17be7a"
   - token0: "0x589d35656641d6ab57a545f08cf473ecd9b6d5f7"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
@@ -3550,10 +3555,6 @@ pairs:
         pool: "0x8bd39fa8608fd949c253987767540c26a0d974cf"
         router: "0xfdcde59c981d1e37666ed2bbbd20e870a7955beb"
         factory: "0x1af415a1eba07a4986a52b6f2e7de7003d82231e"
-      - protocol: uniswapv3
-        pool: "0xb93f8a075509e71325c1c2fc8fa6a75f2d536a13"
-        router: "0x6a000f20005980200259b80c5102003040001068"
-        factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - protocol: algebrav3
         pool: "0xdeb89de4bb6ecf5bfed581eb049308b52d9b2da7"
       - protocol: uniswapv2-standard
@@ -8685,6 +8686,8 @@ pairs:
         router: "0x7238fb45146bd8fcb2c463dc119a53494be57aac"
         factory: "0x1c6e968f2e6c9dec61db874e28589fd5ce3e1f2c"
         fee: 25
+      - protocol: uniswapv3
+        pool: "0xa9e9cb16e922892aa563a5adb0f7d976efce36fb"
       - pool: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
         protocol: bebop
       - protocol: uniswapv2-camelot
