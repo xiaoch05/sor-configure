@@ -304,6 +304,11 @@ pairs:
       - pool: "0xf38c5b39f29600765849ca38712f302b1522c9b8"
         protocol: uniswapv2-standard
   - token0: "0x2a22f9c3b484c3629090feed35f17ff8f88f76f0"
+    token1: "0x5cb9073902f2035222b9749f8fb0c9bfe5527108"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x903b67e5858a880d3e375a56aa9f8c0e2c035e1f"
+  - token0: "0x2a22f9c3b484c3629090feed35f17ff8f88f76f0"
     token1: "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1"
     routers:
       - protocol: cross-market-drop
