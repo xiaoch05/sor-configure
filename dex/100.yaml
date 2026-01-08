@@ -707,12 +707,12 @@ pairs:
   - token0: "0x5cb9073902f2035222b9749f8fb0c9bfe5527108"
     token1: "0xaf204776c7245bf4147c2612bf6e5972ee483701"
     routers:
-      - protocol: uniswapv3
+      - protocol: uniswapv3-paused
         pool: "0x22eb73322b6334ccf07fc2f9f22690a012d22797"
   - token0: "0x5cb9073902f2035222b9749f8fb0c9bfe5527108"
     token1: "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
     routers:
-      - protocol: balancer-weighted-pool
+      - protocol: balancer-weighted-pool-paused
         poolId: "0xea54604e7e1ddec8320cf838cfe857fbf44aad9f000200000000000000000078"
         pool: "0xea54604e7e1ddec8320cf838cfe857fbf44aad9f"
         factory: "0x6cad2ea22bfa7f4c14aae92e47f510cd5c509bc7"
