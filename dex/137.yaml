@@ -15604,6 +15604,11 @@ pairs:
       - pool: "0x888da74ef1d37f7517ef866f5bd717bd1bfe07483a6b32b73d5a4316bd4f0c65"
         protocol: uniswapv4
   - token0: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+    token1: "0x5431390f6a98ae2baa92c3da0690272e1554a50e"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x3f75387b740d0cfeab0fd5bf18078692e2abb0cb414c0e637595cba3e446f2f7"
+  - token0: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
     token1: "0x553d3d295e0f695b9228246232edf400ed3560b5"
     routers:
       - protocol: uniswapv3
@@ -16030,6 +16035,11 @@ pairs:
       - pool: "0xbb7a7dfe30a0a40193915fd41cbd95f11597fc14c75af9dc9a9bb4de0a3ba01e"
         protocol: uniswapv4
   - token0: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+    token1: "0xc5302d8a1f19ef01fec33d143059e36ff092945e"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xeb23f4dfbf3bd3eddf264d85c9dd4bea3bcbbab8"
+  - token0: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
     token1: "0xc56f971934961267586e8283c06018167f0d0e4c"
     routers:
       - protocol: uniswapv2-standard
@@ -16142,6 +16152,8 @@ pairs:
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - pool: "0xba9ed8ae94c70ef9aa2cd1045ed473aaa405c6c7"
         protocol: fluid
+      - protocol: uniswapv4
+        pool: "0x6c003e39467bc08f535476560317b90d2245476ba2ea12f16e74e08678b137c2"
   - token0: "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
     token1: "0xdc685acc53ca2a760029cab2f6a587482aa9cf57"
     routers:
@@ -18508,11 +18520,6 @@ pairs:
         pool: "0x3e70c873d2bd55c685f42c76b01b555d00a4b26f"
         router: "0xa3d370e8a4180828f6756cb8dce359cf21d9d6f7"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
-  - token0: "0x9417669fbf23357d2774e9d421307bd5ea1006d2"
-    token1: "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
-    routers:
-      - protocol: uniswapv4
-        pool: "0x20ca9f67637ec616f4ac2af45e253d7143565bbb4a1360b4273f24e0dd35edf1"
   - token0: "0x94b959c93761835f634b8d6e655070c58e2caa12"
     token1: "0xc2132d05d31c914a87c6611c10748aeb04b58e8f"
     routers:
