@@ -692,13 +692,6 @@ pairs:
     routers:
       - pool: "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978"
         protocol: renegade
-  - token0: "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978"
-    token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
-    routers:
-      - protocol: uniswapv3
-        pool: "0x1442097733acf0a2b5c4ab422f1c0186e95d52ba"
-        router: "0x8113c9251d58fd1767de65d76f1b0cb7365f1830"
-        factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
   - token0: "0x11e969e9b3f89cb16d686a03cd8508c9fc0361af"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -6156,10 +6149,6 @@ pairs:
   - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     token1: "0xba5ddd1f9d7f570dc94a51479a000e3bce967196"
     routers:
-      - protocol: uniswapv3
-        pool: "0x263f7b865de80355f91c00dfb975a821effbea24"
-        router: "0xe592427a0aece92de3edee1f18e0157c05861564"
-        factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
       - protocol: pancakev3
         pool: "0x80ceb98632409080924dce50c26acc25458dde17"
         router: "0x8331721c3dff00830140402214e4f73c94283256"
@@ -6385,8 +6374,6 @@ pairs:
         pool: "0x5cbddc44f31067df328aa7a8da03aca6f2edd2ad"
         router: "0x1111111254eeb25477b68fb85ed929f73a960582"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
-      - protocol: uniswapv3
-        pool: "0x93b4da79158da2efd00acc26f16e49ca1a704978"
   - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     token1: "0xc93303ac97ce114c190bf4901109323ae5ebc726"
     routers:
@@ -7973,10 +7960,6 @@ pairs:
         factory: "0x947bc57cefdd22420c9a6d61387fe4d4cf8a090d"
       - protocol: uniswapv2-standard
         pool: "0x338b50b05f1300439a3ce80e6fbaa613051b3349"
-      - protocol: pancakev3
-        pool: "0x3a63e393726640b33a78a3cac5e57fa6f35b69ed"
-        router: "0x246475e1f63d8e26d6f4fb6029033da8831ed396"
-        factory: "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"
       - pool: "0x5648920712da0548d95072155cdb41c152275156"
         protocol: uniswapv2-standard
       - protocol: uniswapv2-standard
@@ -9315,6 +9298,8 @@ pairs:
   - token0: "0xe1a498fbeffb4cb726f810ccc4a8982ff50bb8b0"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
+      - protocol: uniswapv4
+        pool: "0x1016d3d9eda9015603bfc3c7fdb9ab596d44aff6c594279ce01d0433db152947"
       - protocol: uniswapv4
         pool: "0x1e7f270d264eaa045e31a409cb0e5121a62f06bdb861b1972ef557ddc26de448"
   - token0: "0xe53019b4c8d880526f43db084d0f9b801a55b0dd"
