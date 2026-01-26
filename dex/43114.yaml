@@ -812,11 +812,6 @@ pairs:
       - pool: "0x113f413371fc4cc4c9d6416cf1de9dfd7bf747df"
         protocol: uniswapv2-standard
   - token0: "0x130966628846bfd36ff31a822705796e8cb8c18d"
-    token1: "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
-    routers:
-      - pool: "0xfd584fcc3a74429d85c9a2294eaf0f566ddfd593"
-        protocol: uniswapv3
-  - token0: "0x130966628846bfd36ff31a822705796e8cb8c18d"
     token1: "0xc7198437980c041c805a1edcba50c1ce5db95118"
     routers:
       - pool: "0xaea2e71b631fa93683bcf256a8689dfa0e094fcd"
@@ -1864,6 +1859,11 @@ pairs:
         pool: "0xf40e23204b2e1cc94930e15576b9ce47b4ad0f19"
         router: "0x2b6bb9f77268cc7853b68219cf5654a86cbbbe9e"
         factory: "0xaaa32926fce6be95ea2c51cb4fcb60836d320c42"
+  - token0: "0x2c472e913635c85143369adc9962bbb56efc446a"
+    token1: "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xbf5cec9478003f413967fb71ac1b236df3440a589b983df2566ed3fa2c66e9b5"
   - token0: "0x2c69095d81305f1e3c6ed372336d407231624cea"
     token1: "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab"
     routers:
@@ -2080,13 +2080,6 @@ pairs:
         pool: "0xb68f4e8261a4276336698f5b11dc46396cf07a22"
         router: "0x3614657edc3cb90ba420e5f4f61679777e4974e3"
         factory: "0xefa94de7a4656d787667c749f7e1223d71e9fd88"
-  - token0: "0x321e7092a180bb43555132ec53aaa65a5bf84251"
-    token1: "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
-    routers:
-      - protocol: uniswapv3
-        pool: "0x83c6bdb0355c6b69277a388416e4dca992a81d6f"
-        router: "0x5f3454fa53e5866a4f69bbc2e6b9a041092d9ad7"
-        factory: "0x740b1c1de25031c31ff4fc9a62f554a55cdc1bad"
   - token0: "0x321e7092a180bb43555132ec53aaa65a5bf84251"
     token1: "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64"
     routers:
@@ -7439,8 +7432,6 @@ pairs:
         factory: "0xc009a670e2b02e21e7e75ae98e254f467f7ae257"
       - pool: "0x7e028006ec8632bf009fa4bdd8f1e5a50124efec"
         protocol: uniswapv2-standard
-      - pool: "0xa20c959b19f114e9c2d81547734cdc1110bd773d"
-        protocol: uniswapv3
       - protocol: uniswapv2-standard
         fee: null
         pool: "0xa77e1e4d14e7ed7f8f072694d7889b4c09e2ba63"
