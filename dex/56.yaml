@@ -3752,6 +3752,11 @@ pairs:
     routers:
       - pool: "0x50eb5abce5f631a0a23f3efb7a77f9f7b95f6fba"
         protocol: pancakev3
+  - token0: "0x299142a6370e1912156e53fbd4f25d7ba49ddcc5"
+    token1: "0x55d398326f99059ff775485246999027b3197955"
+    routers:
+      - protocol: pancakev3
+        pool: "0xc1feb3e2e411f82bc5892328c17b36b45a1a64c1"
   - token0: "0x299ad4299da5b2b93fba4c96967b040c7f611099"
     token1: "0x55d398326f99059ff775485246999027b3197955"
     routers:
@@ -7281,6 +7286,11 @@ pairs:
       - protocol: pancakev3
         pool: "0x54d967d7b7260c1ef74a4d8b7b9a1db04a3f5dba"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
+    token1: "0x66f6c207f3a338f4a4984cf3c31366a4cfbcf022"
+    routers:
+      - protocol: pancakev3
+        pool: "0xba4b79a8f409eab13f08f6901510375a1262adca"
+  - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0x66fd8de541c0594b4dccdfc13bf3a390e50d3afd"
     routers:
       - protocol: uniswapv3
@@ -7702,6 +7712,11 @@ pairs:
     routers:
       - protocol: pancakev3
         pool: "0xa07570fd7310e1a9b6b034aadab44c2ca9370bbe"
+  - token0: "0x55d398326f99059ff775485246999027b3197955"
+    token1: "0x756887582647356ce8877e56fb3cc5fefeb62aed"
+    routers:
+      - protocol: pancakev3
+        pool: "0x28fa04b552aa5cfdb9aac6548a20c2cb52b43f0d"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0x763c2c604c5dfdbdf5875a090a976d71bbedbb33"
     routers:
@@ -8930,6 +8945,8 @@ pairs:
     token1: "0x9c67ee6d0f3f12969abc92595b06cc1c93a60313"
     routers:
       - protocol: uniswapv3
+        pool: "0x6aefa030c3e0aa9361b65cb25bb93383015fe9ed"
+      - protocol: uniswapv3
         pool: "0x8c16f32ab211ce08409f3d69e5489e7b7b2cb9a8"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0x9c89cd56cf485a55d6c5fe3446f5a04c87738c79"
@@ -9817,6 +9834,8 @@ pairs:
         protocol: uniswapv2-standard
       - pool: "0x7bd56bd224d4c2565eea3c616e52b7b3c2d78b6f"
         protocol: uniswapv2-standard
+      - protocol: pancakev3
+        pool: "0x97faa8ddab4d462f39ca4e5664ba98e57b3a7d62"
       - pool: "0xba2ae424d960c26247dd6c32edc70b295c744c43"
         protocol: bebop
   - token0: "0x55d398326f99059ff775485246999027b3197955"
@@ -11497,6 +11516,11 @@ pairs:
       - pool: "0xd9bba97fd4a12407ead371e71c07d4f0dbdc6a4d"
         protocol: pancakev3
   - token0: "0x55d398326f99059ff775485246999027b3197955"
+    token1: "0xfa62791529fd89dc42e947a844c3179f753f189b"
+    routers:
+      - protocol: pancakev3
+        pool: "0x736880339645eb84b7c17c2d2d620ba48dc87d8c"
+  - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xfa704148d516b209d52c2d75f239274c8f8eaf1a"
     routers:
       - protocol: pancakev3
@@ -11671,6 +11695,8 @@ pairs:
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xff7d6a96ae471bbcd7713af9cb1feeb16cf56b41"
     routers:
+      - protocol: uniswapv3
+        pool: "0x04a7da186392640862f7922a2f7a2e9fe7b43b85"
       - pool: "0x380aadf63d84d3a434073f1d5d95f02fb23d5228"
         protocol: pancakev3
       - protocol: pancakev3
@@ -11778,6 +11804,11 @@ pairs:
     routers:
       - protocol: pancakev3
         pool: "0x5bb1d4c80fdac93a9c27edad87fbabf158991235"
+  - token0: "0x57185189118c7e786cafd5c71f35b16012fa95ad"
+    token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    routers:
+      - protocol: pancakev3
+        pool: "0x8c4abe59366d61edf25511b6484af6eac4e051ba"
   - token0: "0x574db4e67c01d5d3d65aafb07ddeb82fdbf54444"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
@@ -15955,11 +15986,6 @@ pairs:
         protocol: uniswapv2-standard
       - pool: "0xe022baa3e5e87658f789c9132b10d7425fd3a389"
         protocol: uniswapv2-standard
-  - token0: "0xac531eb26ca1d21b85126de8fb87e80e09002dcf"
-    token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
-    routers:
-      - protocol: uniswapv3
-        pool: "0xa56014f46b442ccbd8f567c3a0864ac863f9a1ad"
   - token0: "0xacaaa770105341af1f43a6952c0485002c24a3e2"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
