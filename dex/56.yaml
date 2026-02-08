@@ -483,8 +483,6 @@ pairs:
     routers:
       - pool: "0x826814bea1bd46c966d499ecc16362284f984c16"
         protocol: uniswapv2-standard
-      - protocol: pancakev3
-        pool: "0xd639ef3431c684674618817cb15ec56897355642"
   - token0: "0x05581267cf4596567c391eeb8aeda7ae0afbbd20"
     token1: "0x55d398326f99059ff775485246999027b3197955"
     routers:
@@ -595,6 +593,11 @@ pairs:
     routers:
       - pool: "0xdf609653f237c743749b4e9ffa364e01dc7ff78d"
         protocol: uniswapv2-standard
+  - token0: "0x0720fbf3c5f4fd78b484d81b0c217b7c3fc77777"
+    token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    routers:
+      - protocol: pancakev3
+        pool: "0x20c1a200ffdc8d65e86cb3e854335d80fa2227b7"
   - token0: "0x072ef16a59bdc14e25f33ff4509870660548c107"
     token1: "0x55d398326f99059ff775485246999027b3197955"
     routers:
@@ -11358,6 +11361,8 @@ pairs:
     routers:
       - pool: "0x1d6574b113ea4cbfe141063ee97c1c742696ee97"
         protocol: pancakev3
+      - protocol: pancakev3
+        pool: "0x21bf3de654bb869b28ecc4c34c83a2742269831d"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xd82544bf0dfe8385ef8fa34d67e6e4940cc63e16"
     routers:
@@ -12185,6 +12190,8 @@ pairs:
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xf4c8e32eadec4bfe97e0f595add0f4450a863a11"
     routers:
+      - protocol: uniswapv3
+        pool: "0x49c10837f0eb30b9637ce4918b5c387b90413646"
       - pool: "0xa051ef9a6fbea340bb734d022e7b6a3ad9fd9b06"
         protocol: uniswapv2-standard
       - protocol: pancakev3
@@ -19848,6 +19855,11 @@ pairs:
     routers:
       - pool: "0x9210f9ca621ab4dbb39b0592389ee780bcdd15cb"
         protocol: pancakev3
+  - token0: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    token1: "0xfe7efe5f555884bfeedd524e4a6b5c35775db1fa"
+    routers:
+      - protocol: pancakev3
+        pool: "0x0bd737281454eec3a8b754e4aa32dd99bcc0ef92"
   - token0: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     token1: "0xfe8bf5b8f5e4eb5f9bc2be16303f7dab8cf56aa8"
     routers:
