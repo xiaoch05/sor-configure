@@ -1,5 +1,10 @@
 chainId: 100
 pairs:
+  - token0: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
+    token1: "0xd4dd9e2f021bb459d5a5f6c24c12fe09c5d45553"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x1bb53efa5523c80b598b561e266dfdc938f80e4f"
   - token0: "0x01ffe9982cb900da7b6faa84ff06a2bf43a149cd"
     token1: "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
     routers:
@@ -365,6 +370,11 @@ pairs:
     routers:
       - pool: "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83"
         protocol: gnosis-transmuter
+  - token0: "0x420ca0f9b9b604ce0fd9c18ef134c705e5fa3430"
+    token1: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
+    routers:
+      - pool: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
+        protocol: gnosis-eure
   - token0: "0x2a22f9c3b484c3629090feed35f17ff8f88f76f0"
     token1: "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
     routers:
