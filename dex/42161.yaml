@@ -37,11 +37,6 @@ pairs:
         router: "0x689368aae04fe7d961d1e545b28266c4f179151c"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
   - token0: "0x03236ce80ed4d9e7cd2e858b2a23437ee0a99c1f"
-    token1: "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
-    routers:
-      - protocol: uniswapv4
-        pool: "0x72c2d71ca04b7cc6618f6842744dc7605080356657a0e1fedf061a2563be8de1"
-  - token0: "0x03236ce80ed4d9e7cd2e858b2a23437ee0a99c1f"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
       - protocol: uniswapv4
@@ -3168,8 +3163,6 @@ pairs:
   - token0: "0x4e616d5de0be655e9a39c3c604e518a8cf455148"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
-      - protocol: pancakev3
-        pool: "0x16b15c95c8ab8c2e45963c797b100251608926d0"
       - protocol: uniswapv4
         pool: "0x792c6e7969134f438f27a9b0159f4127d26dc5ee2b4aaea3649cc898c29ac5b0"
   - token0: "0x4e616d5de0be655e9a39c3c604e518a8cf455148"
@@ -6326,14 +6319,6 @@ pairs:
         router: "0xf77620346541cd38432fed11f7f73a4620a69b63"
         factory: "0x1af415a1eba07a4986a52b6f2e7de7003d82231e"
   - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
-    token1: "0xc628534100180582e43271448098cb2c185795bd"
-    routers:
-      - protocol: uniswapv2-standard
-        fee: 30
-        pool: "0xbc57a6567a0655b1e2805961fc4f20e6a1ff55bd"
-        router: "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"
-        factory: "0xc35dadb65012ec5796536bd9864ed8773abc74c4"
-  - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     token1: "0xc87b37a581ec3257b734886d9d3a581f5a9d056c"
     routers:
       - protocol: uniswapv3
@@ -9262,6 +9247,11 @@ pairs:
         pool: "0xac79b3f1c05b0c63d07966c485c5245ee17e4737"
         router: "0x2ffc504c319d254e7c8509dfb83b962e13079908"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+  - token0: "0xe5cca68b9e1d5575b7e3062fa34b0c725b003a69"
+    token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xcf380d714da6c1fc154e30e7b98c907f001fdf753f331f1ff51c49efbee885b0"
   - token0: "0xe796460adc7b6120a210459e09b78103fa3eec47"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
