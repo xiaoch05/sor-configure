@@ -1807,11 +1807,6 @@ pairs:
       - pool: "0x87258b75824906c350fe0175af168ed137cb3c91af558269667c005cc746b9d5"
         protocol: uniswapv4
   - token0: "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
-    token1: "0x4e616d5de0be655e9a39c3c604e518a8cf455148"
-    routers:
-      - protocol: uniswapv4
-        pool: "0xc3c2b7bc4b69914512ebf18d97750dcb8d029b9876ac37e063f04b3a9e8de5ac"
-  - token0: "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
     token1: "0x5979d7b546e38e414f7e9822514be443a4800529"
     routers:
       - protocol: uniswapv4
@@ -4825,13 +4820,6 @@ pairs:
         router: "0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24"
         factory: "0xf1d7cc64fb4452f05c498126312ebe29f30fbcf9"
   - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
-    token1: "0x83e60b9f7f4db5cdb0877659b1740e73c662c55b"
-    routers:
-      - protocol: uniswapv3
-        pool: "0x0ed82ce398d586352916c495c4ff9d6cea4f5f6e"
-        router: "0xad3b67bca8935cb510c8d18bd45f0b94f54a968f"
-        factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
-  - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     token1: "0x83ea9d8748a7ad9f2f12b2a2f7a45ce47a862ac9"
     routers:
       - protocol: uniswapv2-standard
@@ -5932,8 +5920,6 @@ pairs:
         pool: "0x6dec2b89f5a3b538192dea5286c54c7645cd59f306806f3f9044bddeebb5eb16"
       - pool: "0x864abca0a6202dba5b8868772308da953ff125b0f95015adbf89aaf579e903a8"
         protocol: uniswapv4
-      - protocol: uniswapv4
-        pool: "0xc9bc8043294146424a4e4607d8ad837d6a659142822bbaaabc83bb57e7447461"
       - pool: "0xde824dade2e7be695a6313fade4836f17e03d869bd36cf95df1fd55daac27219"
         protocol: uniswapv4
       - protocol: uniswapv4
@@ -8653,6 +8639,8 @@ pairs:
   - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     token1: "0xfdd22ce6d1f66bc0ec89b20bf16ccb6670f55a5a"
     routers:
+      - protocol: pancakev3
+        pool: "0x290828d7c227f09492e46c0c12b4d797c0984bc3"
       - pool: "0x5886e46e6dd497d7501f103a58ff4242bcaa2556"
         protocol: uniswapv3
   - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
