@@ -96,6 +96,13 @@ pairs:
       - protocol: pancakev3
         pool: "0x84fb0ac4c4464aee6937c164b77ac3eb7e04b2bd"
   - token0: "0x052814194f459af30edb6a506eabfc85a4d99501"
+    token1: "0x1616bf7bbd60e57f961e83a602b6b9abb6e6cafc"
+    routers:
+      - pool: "0x17a35e3d578797e34131d10e66c11170848c6da1"
+        protocol: balancer-weighted-pool
+        poolId: "0x17a35e3d578797e34131d10e66c11170848c6da100010000000000000000001d"
+        vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
+  - token0: "0x052814194f459af30edb6a506eabfc85a4d99501"
     token1: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     routers:
       - protocol: balancer-weighted-pool
@@ -1323,6 +1330,13 @@ pairs:
         pool: "0x61a230f8d19fc95a32c673490e19f020a3be0dd8"
         router: "0x246475e1f63d8e26d6f4fb6029033da8831ed396"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+  - token0: "0x223738a747383d6f9f827d95964e4d8e8ac754ce"
+    token1: "0x5979d7b546e38e414f7e9822514be443a4800529"
+    routers:
+      - pool: "0xc7fa3a3527435720f0e2a4c1378335324dd4f9b3"
+        protocol: balancer-weighted-pool
+        poolId: "0xc7fa3a3527435720f0e2a4c1378335324dd4f9b3000200000000000000000459"
+        vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
   - token0: "0x223e2de9ee2d1ebcb87b506cc70f174995d2944d"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
