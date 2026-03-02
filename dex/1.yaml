@@ -1,5 +1,11 @@
 chainId: 1
 pairs:
+  - token0: "0x45804880de22913dafe09f4980848ece6ecbaf78"
+    token1: "0x68749665ff8d2d112fa859aa293f07a622782f38"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xdd4c3ef43db234c7b7a95197f575c672ac4604f3"
+
   - token0: "0x000000000000012def132e61759048be5b5c6033"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
@@ -5006,6 +5012,8 @@ pairs:
     routers:
       - pool: "0x5791b454341cda5a501956623095896e73d6861a03e41f9a104798e66ad1031f"
         protocol: uniswapv4
+      - protocol: uniswapv3
+        pool: "0xe8a1f39c16eea2844e98f951d711bb4bb31557ad"
   - token0: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
     token1: "0x6982508145454ce325ddbe47a25d4ec3d2311933"
     routers:
@@ -9671,6 +9679,12 @@ pairs:
         protocol: uniswapv4
       - pool: "0x5c1a9a7329913354597817638e615e0ecb38ae13679125eb1a3b5953ed4612d4"
         protocol: uniswapv4
+      - protocol: uniswapv3
+        pool: "0xed7ef9a9a05a48858a507c080def0405ad1eaa3e"
+      - protocol: uniswapv3
+        pool: "0xc756bba710d45647715079ce50aa16aab36ded42"
+      - protocol: uniswapv3
+        pool: "0xdd4c3ef43db234c7b7a95197f575c672ac4604f3"
   - token0: "0x45804880de22913dafe09f4980848ece6ecbaf78"
     token1: "0x69af64f409c08e9076bf7f3ed9db3a7409717161"
     routers:
@@ -14080,6 +14094,8 @@ pairs:
         protocol: bebop
       - pool: "0xa8dd78582e31791c08187169a3343365a1e3282c67bc7f93c1e585ddd0a4c4e0"
         protocol: uniswapv4
+      - protocol: uniswapv3
+        pool: "0x841ea2475a989eeccd27fe39967c19cb097357a3"
   - token0: "0x68749665ff8d2d112fa859aa293f07a622782f38"
     token1: "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd"
     routers:
@@ -14093,6 +14109,8 @@ pairs:
   - token0: "0x68749665ff8d2d112fa859aa293f07a622782f38"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
+      - protocol: uniswapv3
+        pool: "0x6546055f46e866a4b9a4a13e81273e3152bae5da"
       - pool: "0x68749665ff8d2d112fa859aa293f07a622782f38"
         protocol: bebop
       - pool: "0xa91f80380d9cc9c86eb98d2965a0ded9e2000791"
