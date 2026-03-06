@@ -1256,6 +1256,8 @@ pairs:
       - protocol: uniswapv3
         pool: "0xf999c1f4407665db889c5e8bb93d0921cd873dcf"
       - protocol: uniswapv4
+        pool: "0x108a840f633c00927f0b773c8851cc1835ae7631833e88d7a3c38fd761ef2f7a"
+      - protocol: uniswapv4
         pool: "0x70bf44c3a9b6b047bf60e5a05968225dbf3d6a5b9e8a95a73727e48921e889c1"
       - protocol: uniswapv4
         pool: "0x80c735c5a0222241f211b3edb8df2ccefad94553ec18f1c29143f0399c78f500"
@@ -2704,6 +2706,11 @@ pairs:
         slippage: 2
       - pool: "0xd26e22c75ea0a66a526bc8b303da6b0085a3b0ab"
         protocol: uniswapv2-standard
+  - token0: "0x6d7187220f769bde541ff51dd37ee07416f861d2"
+    token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x2b30e17f928102404b1512d824c92ba181cc53c6"
   - token0: "0x6d80113e533a2c0fe82eabd35f1875dcea89ea97"
     token1: "0xd22a58f79e9481d1a88e00c343885a588b34b68b"
     routers:
@@ -6255,6 +6262,11 @@ pairs:
       - pool: "0x0054079749679dd45f44394bac80177b3fd0b05f1c5d3cdb6fc9322733408611"
         protocol: uniswapv4
   - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    token1: "0xcaa38bcc8fb3077975bbe217acfaa449e6596a84"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xd89a69fba3fcf693f3a84a9902bf2e513aa7d70c"
+  - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     token1: "0xcb8b5cd20bdcaea9a010ac1f8d835824f5c87a04"
     routers:
       - protocol: cross-market
@@ -6430,6 +6442,11 @@ pairs:
         pool: "0x630dd0e91043374eaa18a9b7722cc716d6a26147"
         router: "0xe592427a0aece92de3edee1f18e0157c05861564"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+  - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    token1: "0xf70bad81af569a6a0e6a0096530585606ac68725"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xbc8df1385700145cf88f785715407dcba0eeb1b8423e1e4fa0eb1900c8978dc9"
   - token0: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     token1: "0xf80d589b3dbe130c270a69f1a69d050f268786df"
     routers:
