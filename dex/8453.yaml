@@ -15265,6 +15265,11 @@ pairs:
       - protocol: uniswapv3
         pool: "0x4e03e9357b992b30247a65aa88c4be00a2b58a73"
   - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0x9f86dB9fc6f7c9408e8Fda3Ff8ce4e78ac7a6b07"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xcd55381a53da35ab1d7bc5e3fe5f76cac976fac3"
+  - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x9fc5988fea8343aed493b815c805aa7818e5cb07"
     routers:
       - protocol: uniswapv3
@@ -21342,6 +21347,9 @@ pairs:
     routers:
       - pool: "0x696f9436b67233384889472cd7cd58a6fb5df4f1"
         protocol: bebop
+      - protocol: algebrav3
+        pool: "0x721bcd563603a559616dc9fb886a1732186995a4"
+        taxFee: 30
       - pool: "0x9144a6e8ad6f56db96dac444eb173831660ba3e5"
         protocol: uniswapv3
       - pool: "0xc4ed25e61cbde561c982789f740e3e9a8c317100"
