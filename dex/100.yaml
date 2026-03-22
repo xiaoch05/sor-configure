@@ -387,6 +387,19 @@ pairs:
       - pool: "0x845c8bc94610807fcbab5dd2bc7ac9dabaff3c55"
         protocol: curve
         size: "2"
+   - token0: "0x5cb9073902f2035222b9749f8fb0c9bfe5527108"
+     token1: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
+     routers:
+       - pool: "0x01343cf42c7f1f71b230126dda3b7b2c108e9f2e"
+         protocol: uniswapv3
+   - token0: "0x5cb9073902f2035222b9749f8fb0c9bfe5527108"
+     token1: "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
+     routers:
+       - poolId: "0xea54604e7e1ddec8320cf838cfe857fbf44aad9f000200000000000000000078"
+         protocol: balancer-weighted-pool
+         pool: "0xea54604e7e1ddec8320cf838cfe857fbf44aad9f"
+         factory: "0x6cad2ea22bfa7f4c14aae92e47f510cd5c509bc7"
+         vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
   - token0: "0x63e62989d9eb2d37dfdb1f93a22f063635b07d51"
     token1: "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
     routers:
