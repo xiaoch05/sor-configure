@@ -469,6 +469,11 @@ pairs:
     routers:
       - pool: "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978"
         protocol: renegade
+  - token0: "0x11cdb42b0eb46d95f990bedd4695a6e3fa034978"
+    token1: "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x1126d32741e4333683d4632509a677ca062b213f"
   - token0: "0x11e969e9b3f89cb16d686a03cd8508c9fc0361af"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -1291,6 +1296,8 @@ pairs:
         pool: "0x8b3781471ab98774c59775df9cc505ce20b36afffd297aef2dc17daafce3b140"
       - protocol: uniswapv4
         pool: "0xa85423e10a4292e66833f96898af7f443038ac6a1c40d6a0241654080fb84c11"
+      - protocol: uniswapv4
+        pool: "0xbf22f6e38e98e9d2555ef3f2d51f625aa91c42f5595f3a39c42e3948941027be"
   - token0: "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
     token1: "0x912ce59144191c1204e64559fe8253a0e49e6548"
     routers:
@@ -6142,6 +6149,8 @@ pairs:
         vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
       - protocol: uniswapv2-standard
         pool: "0x338b50b05f1300439a3ce80e6fbaa613051b3349"
+      - protocol: pancakev3
+        pool: "0x3a63e393726640b33a78a3cac5e57fa6f35b69ed"
       - pool: "0x5648920712da0548d95072155cdb41c152275156"
         protocol: uniswapv2-standard
       - protocol: uniswapv2-standard
@@ -6243,6 +6252,11 @@ pairs:
     routers:
       - pool: "0xdf04fa6ee5e2dcf73f7edd0aa3a5f7f9a4a5f445"
         protocol: uniswapv3
+  - token0: "0x9888bdc403eececdd5eeac095a7bec1df304087c"
+    token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xeab73e13476d6880544faa0aacf9ab867b5b6532"
   - token0: "0x999999990237e901c537bbd768e09562be02efa5"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
@@ -6937,6 +6951,11 @@ pairs:
         pool: "0x645ac8baa2847083e0de81889d5cdc450ecb12ac"
         router: "0xb254ee265261675528bddb0796741c0c65a4c158"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+  - token0: "0xb1084db8d3c05cebd5fa9335df95ee4b8a0edc30"
+    token1: "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65"
+    routers:
+      - protocol: pancakev3
+        pool: "0x8a06339abd7499af755df585738ebf43d5d62b94"
   - token0: "0xb1bc21f748ae2be95674876710bc6d78235480e0"
     token1: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     routers:
