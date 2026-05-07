@@ -335,6 +335,11 @@ pairs:
       - pool: "0x3dd3c27c1e5450b68b6e1d11e69f516affcd5ab9207cc1548332c77e98f4497f"
         protocol: uniswapv4
   - token0: "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8"
+    token1: "0x912ce59144191c1204e64559fe8253a0e49e6548"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xcda87b49b69dd56fbfc3614a75be78b8e01ee5c727c497e8546eb4a369c3f11e"
+  - token0: "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
       - pool: "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8"
@@ -361,6 +366,8 @@ pairs:
     routers:
       - pool: "0x9652093121c5bfe65ba4f073eeede862f7dd4188"
         protocol: uniswapv3
+      - protocol: uniswapv3
+        pool: "0xb8993342efd02470f78de6de8b19c33062464694"
   - token0: "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
@@ -1293,7 +1300,11 @@ pairs:
         factory: "0x71539d09d3890195dda87a6198b98b75211b72f3"
         fee: 30
       - protocol: uniswapv4
+        pool: "0x176cfa19c9019f9bb2cc48b1c2c24c26cf703eff805a0b42b2ee683a688f6a3e"
+      - protocol: uniswapv4
         pool: "0x8b3781471ab98774c59775df9cc505ce20b36afffd297aef2dc17daafce3b140"
+      - protocol: uniswapv4
+        pool: "0x94d2848a5e65d397105a37758079b0a399e8d9a2cd332d5ab889660cc295df58"
       - protocol: uniswapv4
         pool: "0xa85423e10a4292e66833f96898af7f443038ac6a1c40d6a0241654080fb84c11"
       - protocol: uniswapv4
@@ -1615,6 +1626,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x00643a168de9287c3a504b6836f7ad5943f9e130"
+  - token0: "0x35ca1e5a9b1c09fa542fa18d1ba4d61c8edff852"
+    token1: "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xbff1052787947f88f45ad4d65c2578d541b83692"
   - token0: "0x35e5db674d8e93a03d814fa0ada70731efe8a4b9"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
@@ -2890,6 +2906,8 @@ pairs:
   - token0: "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
+      - protocol: uniswapv3
+        pool: "0x8a92980d30c2fcaf1b7a32bb7cd8d36e61875dbe"
       - protocol: uniswapv4
         pool: "0x879dd645be2410c5be072bc99e9af8b337420cd7b481627f64b721bb64b237e8"
   - token0: "0x6d7187220f769bde541ff51dd37ee07416f861d2"
@@ -2948,6 +2966,11 @@ pairs:
         pool: "0x8da66e470403b3d3eee66c67e2c61fda6e248ad1"
         router: "0x80d47e9072e356e19632d02744629d039e7a24a4"
         factory: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+  - token0: "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf"
+    token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x1186b18a85250ef23bafb3a2382b169b4f8e5d60"
   - token0: "0x7189fb5b6504bbff6a852b13b7b82a3c118fdc27"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
@@ -5121,6 +5144,8 @@ pairs:
       - protocol: aave-pause
         pool: "0x794a61358d6845594f94dc1db02a252b5b4814ad"
         underly: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      - protocol: uniswapv3
+        pool: "0xee4db3cc088616a37cee262a0e18eacc0cd2e733"
   - token0: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     token1: "0xe594b57e7f11ec1e8af9f003f74fa52b7aefdc9f"
     routers:
