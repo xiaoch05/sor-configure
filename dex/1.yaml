@@ -1,5 +1,18 @@
 chainId: 1
 pairs:
+  - token0: "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+    token1: "0x888883b5f5d21fb10dfeb70e8f9722b9fb0e5e51"
+    routers:
+      - protocol: curve
+        pool: "0x7015d460019a67d1f0272a784bc18c47951d2ed1"
+        size: 2
+  - token0: "0x6b175474e89094c44da98b954eedeac495271d0f"
+    token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    routers:
+      - protocol: curve
+        pool: "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7"
+        size: 3
+        a_precision: 1
   - token0: "0x000000000000012def132e61759048be5b5c6033"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
@@ -14613,6 +14626,10 @@ pairs:
   - token0: "0x6b175474e89094c44da98b954eedeac495271d0f"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
+      - protocol: curve
+        pool: "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7"
+        size: 3
+        a_precision: 1
       - pool: "0x31ac258b911af9a0d2669ebdfc4e39d92e96b772"
         protocol: uniswapv3
       - pool: "0x5777d92f208679db4b9778590fa3cab3ac9e2168"
@@ -22313,6 +22330,10 @@ pairs:
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
+      - protocol: curve
+        pool: "0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7"
+        size: 3
+        a_precision: 1
       - protocol: pancakev3
         pool: "0x04c8577958ccc170eb3d2cca76f9d51bc6e42d8f"
       - protocol: uniswapv3
