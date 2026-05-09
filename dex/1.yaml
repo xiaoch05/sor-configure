@@ -1,5 +1,10 @@
 chainId: 1
 pairs:
+  - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    token1: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
+    routers:
+      - protocol: twocrypto
+        pool: "0x3211c6cbef1429da3d0d58494938299c92ad5860"
   - token0: "0x000000000000012def132e61759048be5b5c6033"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
@@ -21538,16 +21543,16 @@ pairs:
     routers:
       - pool: "0x4d3d53000c3524a07276664a1686b8b9aaf13022"
         protocol: uniswapv2-standard
-  - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    token1: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
-    routers:
-      - protocol: balancer-weighted-pool
-        poolId: "0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e0002000000000000000005d5"
-        pool: "0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e"
-        factory: "0x897888115ada5773e02aa29f775430bfb5f34c51"
-        vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
-      - pool: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
-        protocol: bebop
+  # - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+  #   token1: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
+  #   routers:
+  #     - protocol: balancer-weighted-pool
+  #       poolId: "0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e0002000000000000000005d5"
+  #       pool: "0x3ff3a210e57cfe679d9ad1e9ba6453a716c56a2e"
+  #       factory: "0x897888115ada5773e02aa29f775430bfb5f34c51"
+  #       vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
+  #     - pool: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
+  #       protocol: bebop
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xaff2565091e7207191dbe340b8528d02fa78d044"
     routers:
