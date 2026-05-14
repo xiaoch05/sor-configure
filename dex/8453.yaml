@@ -8752,6 +8752,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x9eb2124a6036e8e2538038ec701cb171d0a995d1"
+  - token0: "0x2b84edce0b07e08b687917502d5ac00c9c6604ec"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x3ee2969290108ff29bd399f231c6565fb3daccb03f86d41b7737c14a5a048e97"
   - token0: "0x2b87bcafe9254c6f5a936889680b32deabce924c"
     token1: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     routers:
@@ -12825,6 +12830,11 @@ pairs:
     routers:
       - pool: "0xb368498c99dbc69e4ac56a3a081034f4b8d1d57c"
         protocol: uniswapv2-standard
+  - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0x44f9a367656c26a8398b7dc33168db4430f1e1af"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x0da1af9350a1b18448a1ea37c2f6d6a75753282a"
   - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x44fcbbee0e99e4801b201a20fedabbe94177dba1"
     routers:
@@ -23551,6 +23561,12 @@ pairs:
   - token0: "0x4200000000000000000000000000000000000006"
     token1: "0xed664536023d8e4b1640c394777d34abaff1df8f"
     routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0xe0de678bdd3773c936f112135af3da8a52253afb"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000000000000"
+        decimals1: "1000000000000000000"
+        stable: false
       - protocol: uniswapv4
         pool: "0x7c84276e317f128b55bd270dbfba3ef94c84b984c124a1de7c4f72da90bfba45"
   - token0: "0x4200000000000000000000000000000000000006"
@@ -35352,6 +35368,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0xcb398893249d38753fb1cc45fbbc23d24229fc84"
+  - token0: "0xadff928b0323952c8385a2bcdd2654caaa518736"
+    token1: "0xb20a4bd059f5914a2f8b9c18881c637f79efb7df"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x12bdae12ee1e7bdd184c1fb1f4f11497ec1873ad"
   - token0: "0xadff9367906b5838440f7b0cb7751fe08ceebb5e"
     token1: "0xb20a4bd059f5914a2f8b9c18881c637f79efb7df"
     routers:
