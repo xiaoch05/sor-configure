@@ -1145,6 +1145,14 @@ pairs:
     routers:
       - pool: "0x1a89ae3ba4f9a97b10bac6a77061f00bb956858b"
         protocol: uniswapv3
+  - token0: "0x04c46e830bb56ce22735d5d8fc9cb90309317d0f"
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    routers:
+      - protocol: ekubov3
+        pool: "0xc7f619f69b7906da5454112580c7bea39ad875921a0a4710083cbd47561c4ddb"
+        fee: "0x028f5c28f5c28f5c"
+        extension: "0xd4b54d0ca6979da05f25895e6e269e678ba00f9e"
+        pool_type_config: "0x80004d5a"
   - token0: "0x04d4b912922bc67be79ba0c0db5388fb0ef7edca"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -3838,6 +3846,11 @@ pairs:
         pool: "0x73a38006d23517a1d383c88929b2014f8835b38b"
       - protocol: uniswapv3
         pool: "0xdbac78be00503d10ae0074e5e5873a61fc56647c"
+      - protocol: ekubov3
+        pool: "0xe0c6f040335c2cec4e6c0dcf0be223e5c987e0c65a1b46f1861887904e0366bc"
+        fee: "0x00068db8bac710cb"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x800000c8"
   - token0: "0x18084fba666a33d37592fa2633fd49a74dd93a88"
     token1: "0x661c70333aa1850ccdbae82776bb436a0fcfeefb"
     routers:
@@ -5757,6 +5770,11 @@ pairs:
         protocol: uniswapv2-standard
       - pool: "0xf02553b9f908ab61f4c1fc0af9a488c76f8ecc85"
         protocol: uniswapv2-standard
+      - protocol: ekubov3
+        pool: "0x030e0b8733ded50b144ffc7fb17c94528d5bafcabb76d3a36f214cce4b710826"
+        fee: "0x004189374bc6a7f0"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x800003e8"
       - protocol: uniswapv4
         pool: "0x3d8a4e3c8985f514808a901424724c9bc03b7a5b5ac3ca8b679d4681690d1e7f"
       - protocol: uniswapv4
@@ -5806,10 +5824,20 @@ pairs:
         pool: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
       - protocol: uniswapv3
         pool: "0xe8f7c89c5efa061e340f2d2f206ec78fd8f7e124"
+      - protocol: ekubov3
+        pool: "0x2d8cc691749b089a862aec9453bf6559262b67c837542671e8d2e2047bf78f89"
+        fee: "0x00068db8bac710cb"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x800000c8"
       - pool: "0x2f92b371aef58f0abe9c10c06423de083405991f2839638914a1031e91d9a723"
         protocol: uniswapv4
       - protocol: uniswapv4
         pool: "0x82c9bab7ff5da2562233387461a0d6b41b3c8ae3c32b617fa8bef333950b451f"
+      - protocol: ekubov3
+        pool: "0xa8d735fdd345002618025f2304158152c337bb78b562e8c94336969c0ca78c46"
+        fee: "0x000346dc5d638866"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x80000064"
       - pool: "0xbf8fc52a30d6500e86c681f082d3524e35fb4ceb21ded8c13c6ce3968690adc6"
         protocol: uniswapv4
   - token0: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
@@ -5865,6 +5893,11 @@ pairs:
         pool: "0x20c3a15e34e5d88aeba004b0753af69e4f6bea80eae2263f7a92e919cd33cc56"
       - protocol: uniswapv4
         pool: "0x4a24fcf3c1cbebd80d09537c7aa15adf2d228aa1b9ba1b0e5fb82e66dc96c0d2"
+      - protocol: ekubov3
+        pool: "0xe29d7ac1555e569de7a2234d234758e0e8768d50fa7c54c963d31df96876279f"
+        fee: "0x004189374bc6a7f0"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x8000137c"
   - token0: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
     token1: "0xe2976a66e8cef3932cdaeb935e114dcd5ce20f20"
     routers:
@@ -11693,6 +11726,11 @@ pairs:
         protocol: uniswapv3
       - protocol: uniswapv4
         pool: "0x75dd55ec07ae4e95279d07a37de27778032be1af5ef6b0d2c927a311a21444c6"
+      - protocol: ekubov3
+        pool: "0xc86d5ef108fd6b856187b4cfa42662c61535f28683d9793e40be6a1441326f27"
+        fee: "0x0001f75104d551d7"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x80000064"
   - token0: "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -14994,6 +15032,11 @@ pairs:
       - pool: "0xefc6516323fbd28e80b85a497b65a86243a54b3e"
         protocol: curve
         size: 2
+      - protocol: ekubov3
+        pool: "0x4e6f6bc2b6cac587e323dbc9160cceb796de6ad44de09dedebc715f273a1ee40"
+        fee: "0x000d1b71758e2196"
+        extension: "0x948b9c2c99718034954110cb61a6e08e107745f9"
+        pool_type_config: "0x0ee5a624"
       - pool: "0x5d0ed52610c76d7bf729130ce7ddc0488b2f4bd0a0db1f12adbe6a32deaff893"
         protocol: uniswapv4
   - token0: "0x6440f144b7e50d6a8439336510312d2f54beb01d"
@@ -20100,6 +20143,16 @@ pairs:
         pool: "0xd340b57aacdd10f96fc1cf10e15921936f41e29c"
       - pool: "0x1d5b2949ece8754c2d736991c62c5162bd144f497b2212182401b9bae77e2d76"
         protocol: uniswapv4
+      - protocol: ekubov3
+        pool: "0x99a3b33ada97242c58fb31d884aa3b8c69d8fac6db3d6631e9336d1baadd6718"
+        fee: "0x000346dc5d638866"
+        extension: "0x5555ff9ff2757500bf4ee020dcfd0210cffa41be"
+        pool_type_config: "0x80000019"
+      - protocol: ekubov3
+        pool: "0xfc30256b8955637d82d5ec8057a164927c3460fe8926f4b590fad857ce47d6f9"
+        fee: "0x000346dc5d638866"
+        extension: "0x5555ff9ff2757500bf4ee020dcfd0210cffa41be"
+        pool_type_config: "0x80000032"
   - token0: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
     token1: "0xcedbea37c8872c4171259cdfd5255cb8923cf8e7"
     routers:
@@ -25910,6 +25963,11 @@ pairs:
         pool: "0x25e33ffa8da5266fc4e42a71bc095d81e46f0c838544b8a25ad3390158b79704"
       - protocol: uniswapv4
         pool: "0x38254d18089035289b4d06d71043a1352aa7e7ae4eb37ce2bcdb7ef0c38420d1"
+      - protocol: ekubov3
+        pool: "0x40f28acb8adc041aa51c8db8f21a9ccac0ee359075b01e1b432c238bb4e6c7eb"
+        fee: "0x0000000000000000"
+        extension: "0x517e506700271aea091b02f42756f5e174af5230"
+        pool_type_config: "0x00000000"
       - pool: "0x4f88f7c99022eace4740c6898f59ce6a2e798a1e64ce54589720b7153eb224a7"
         protocol: uniswapv4
       - protocol: uniswapv4
@@ -25924,6 +25982,11 @@ pairs:
         pool: "0x78b97e311270dd6858f07151ddce383c456fad61e713dfa3432405976d307821"
       - protocol: uniswapv4
         pool: "0x934932946a407023d1a75e0592f5cbd37dacb3790809994aa01f9bb24ccfc89f"
+      - protocol: ekubov3
+        pool: "0x945f8d9a68b792b520610b3ebb8a243280062bc704f4c78e0fd0a8fe18973ec1"
+        fee: "0x00c49ba5e353f7cf"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x8000137c"
       - protocol: uniswapv4
         pool: "0xa897a0ffa7cbcb3605e4994b52352efc838feb8fa4a8cd9229bcac5dd990f893"
       - protocol: uniswapv4
@@ -25936,6 +25999,11 @@ pairs:
         protocol: uniswapv4
       - pool: "0xdce6394339af00981949f5f3baf27e3610c76326a700af57e4b3e3ae4977f78d"
         protocol: uniswapv4
+      - protocol: ekubov3
+        pool: "0xde39735c66c6f51669c80e1fde362e42a1b1b927d49dee8d6577765a4e4d38c6"
+        fee: "0x0020c49ba5e353f8"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x8000137c"
       - protocol: uniswapv4
         pool: "0xde3f2f4d7038547383c0e310b8905d56e210c620d05c2f4716579369ac727510"
       - protocol: uniswapv4
@@ -26616,6 +26684,11 @@ pairs:
         protocol: uniswapv4
       - protocol: uniswapv4
         pool: "0x395f91b34aa34a477ce3bc6505639a821b286a62b1a164fc1887fa3a5ef713a5"
+      - protocol: ekubov3
+        pool: "0x6fde3244f6fa747ae318aba6e982a4281febad4d22e3b134aa299a83a951895d"
+        fee: "0x000053e2d6238da4"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x80000032"
       - protocol: uniswapv4
         pool: "0x77b480a635c038223de17d7eb3860bc8c12beb2a2b29dbfc59a3d35fd17e617f"
       - protocol: uniswapv4
@@ -33319,12 +33392,27 @@ pairs:
         pool: "0x1bbf82bb780dc9c312dfcb2430c04395675a7c925ec9f3e5eb5bd64f4fa1424d"
       - protocol: uniswapv4
         pool: "0x2287a9620adcbf6250dc71be9ee9b2d3a1ec85a464fc6f5c06669e8d07b61bba"
+      - protocol: ekubov3
+        pool: "0x41b349297d536f7bf7beb64a6ee21472c0accf119554ce17062a0bec5759d6ef"
+        fee: "0x000d1b71758e2196"
+        extension: "0x5555ff9ff2757500bf4ee020dcfd0210cffa41be"
+        pool_type_config: "0x80000064"
+      - protocol: ekubov3
+        pool: "0x49f4744cd4e8d49b180c7db20522e9053a030cd02f94a276403b2e361eed683f"
+        fee: "0x00068db8bac710cb"
+        extension: "0x5555ff9ff2757500bf4ee020dcfd0210cffa41be"
+        pool_type_config: "0x80000064"
       - protocol: uniswapv4
         pool: "0x50b00c1a5a8e582ec808e97e71598cd135206a9f9c548eab2ed73659e7ee5fa8"
       - protocol: uniswapv4
         pool: "0x6423caccdb2b6b9913b9c488ae9b0fba2440e0ddc14d2bc5de45e3ce4df57c2e"
       - protocol: uniswapv4
         pool: "0x72331fcb696b0151904c03584b66dc8365bc63f8a144d89a773384e3a579ca73"
+      - protocol: ekubov3
+        pool: "0x77e86b8f5da17873d7bdd70efc68a06dd3edc1d6e36b5bd65ff45eece33a31e4"
+        fee: "0x0020c49ba5e353f8"
+        extension: "0x0000000000000000000000000000000000000000"
+        pool_type_config: "0x8000137c"
       - protocol: uniswapv4-hook
         pool: "0x90078845bceb849b171873cfbc92db8540e9c803ff57d9d21b1215ec158e79b3"
   - token0: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
