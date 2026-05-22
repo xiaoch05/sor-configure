@@ -374,6 +374,11 @@ pairs:
       - pool: "0xbe0747c9799df08b55dc854e7a293ddf05bfa854"
         protocol: uniswapv2-standard
   - token0: "0x4ecaba5870353805a9f068101a40e0f32ed605c6"
+    token1: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
+    routers:
+      - protocol: crvmeta-crypto
+        pool: "0xe3fff29d4dc930ebb787fecd49ee5963dadf60b6"
+  - token0: "0x4ecaba5870353805a9f068101a40e0f32ed605c6"
     token1: "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83"
     routers:
       - protocol: uniswapv2-standard
@@ -995,6 +1000,8 @@ pairs:
     routers:
       - pool: "0xa2f29b3490a61cd02d6c6ba61e713c0838e65b03"
         protocol: uniswapv3
+      - protocol: crvmeta-crypto
+        pool: "0xe3fff29d4dc930ebb787fecd49ee5963dadf60b6"
   - token0: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
     token1: "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d"
     routers:
@@ -1002,6 +1009,8 @@ pairs:
         pool: "0xb09a07f0413eb55cf01e49eacf28eeed5fb5ffa4"
         router: "0x86de4fcea596ba347c2e0fb91081492c7bf3293a"
         factory: "0xf78031cbca409f2fb6876bdfdbc1b2df24cf9bef"
+      - protocol: crvmeta-crypto
+        pool: "0xe3fff29d4dc930ebb787fecd49ee5963dadf60b6"
   - token0: "0xcb444e90d8198415266c6a2724b7900fb12fc56e"
     token1: "0xedbc7449a9b594ca4e053d9737ec5dc4cbccbfb2"
     routers:
