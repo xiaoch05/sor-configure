@@ -96,6 +96,8 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x1a1da41353eb2d2b60cb2fc3157989e9ba29a65a"
+      - protocol: pancakev3
+        pool: "0x5eac8160dea6ad06da13f2daec341ac65268a976"
   - token0: "0x03236ce80ed4d9e7cd2e858b2a23437ee0a99c1f"
     token1: "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0"
     routers:
@@ -1008,6 +1010,11 @@ pairs:
     routers:
       - pool: "0x5d538ae12f9539ac457cd5fdbdec02d5779f0971"
         protocol: fluid
+  - token0: "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2"
+    token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x79c1b24e8981854a05b72b3b2828774ffe79694dbf9cc141782c6089a4f0a41c"
   - token0: "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2"
     token1: "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     routers:
