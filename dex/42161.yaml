@@ -2417,8 +2417,15 @@ pairs:
         protocol: algebrav3-like
         factory: "0x1a3c9b1d2f0529d97f2afc5136cc23e58f1fd35b"
   - token0: "0x4e616d5de0be655e9a39c3c604e518a8cf455148"
+    token1: "0x6491c05a82219b8d1479057361ff1654749b876b"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x642d0a4b7a5f1ff018ec5873d7b753a74fb2a1e4"
+  - token0: "0x4e616d5de0be655e9a39c3c604e518a8cf455148"
     token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
     routers:
+      - protocol: pancakev3
+        pool: "0x4f535a016db93b31dd18e4dd523888e1018471ed"
       - protocol: uniswapv3
         pool: "0x71832bd3c93e9ede87b9d1eb428ea71dd0becd56"
       - protocol: uniswapv4
