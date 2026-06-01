@@ -676,6 +676,8 @@ pairs:
         stableSwap: false
       - pool: "0x9fa1d2d02788dc55803844acd867ecfff3660a26"
         protocol: uniswapv2-standard
+      - protocol: uniswapv3
+        pool: "0xe24f62341d84d11078188d83ca3be118193d6389"
   - token0: "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60"
     token1: "0x5979d7b546e38e414f7e9822514be443a4800529"
     routers:
@@ -2635,6 +2637,8 @@ pairs:
   - token0: "0x539bde0d7dbd336b79148aa742883198bbf60342"
     token1: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     routers:
+      - protocol: uniswapv3
+        pool: "0x37516211fe11d49b84cb959631526e1f4e3fb86f"
       - protocol: balancer-weighted-pool
         poolId: "0xb3028ca124b80cfe6e9ca57b70ef2f0ccc41ebd40002000000000000000000ba"
         pool: "0xb3028ca124b80cfe6e9ca57b70ef2f0ccc41ebd4"
