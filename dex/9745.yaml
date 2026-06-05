@@ -22,6 +22,12 @@ pairs:
       - pool: "0x1e8d78e9b3f0152d54d32904b7933f1cfe439df1"
         protocol: curve
         size: 2
+  - token0: "0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2"
+    token1: "0xc1a318493ff07a68fe438cee60a7ad0d0dba300e"
+    routers:
+      - pool: "0x925a2a7214ed92428b5b1b090f80b25700095e12"
+        protocol: aave
+        underly: "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2"
   - token0: "0x29ad7fe4516909b9e498b5a65339e54791293234"
     token1: "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
     routers:
@@ -32,11 +38,23 @@ pairs:
     routers:
       - pool: "0x5dd08744dd0214e962bb49253f327da6ea055e5c"
         protocol: uniswapv2-standard
+  - token0: "0x5aa4bc74811d672da5308019da4779f673e60b47"
+    token1: "0x6100e367285b01f48d07953803a2d8dca5d19873"
+    routers:
+      - pool: "0x925a2a7214ed92428b5b1b090f80b25700095e12"
+        protocol: aave
+        underly: "0x6100E367285b01F48D07953803A2d8dCA5D19873"
   - token0: "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
     token1: "0x6100e367285b01f48d07953803a2d8dca5d19873"
     routers:
       - pool: "0x697f96f54c862ca8f5a1cb95b9c1cf5d1b04091b"
         protocol: uniswapv2-standard
+  - token0: "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+    token1: "0x7519403e12111ff6b710877fcd821d0c12caf43a"
+    routers:
+      - pool: "0x925a2a7214ed92428b5b1b090f80b25700095e12"
+        protocol: aave
+        underly: "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34"
   - token0: "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
     token1: "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
     routers:
@@ -45,6 +63,12 @@ pairs:
         size: 2
       - pool: "0xd3dafb7a0a6ff9b149860eea2758f8c083488ea9"
         protocol: uniswapv3
+  - token0: "0x5d72a9d9a9510cd8cbdba12ac62593a58930a948"
+    token1: "0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb"
+    routers:
+      - pool: "0x925a2a7214ed92428b5b1b090f80b25700095e12"
+        protocol: aave
+        underly: "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
   - token0: "0x6100e367285b01f48d07953803a2d8dca5d19873"
     token1: "0x92a01ab7317ac318b39b00eb6704ba56f0245d7a"
     routers:
@@ -121,3 +145,9 @@ pairs:
     routers:
       - pool: "0x72e9887b1b735f9415236df98a713f6c5df38541"
         protocol: uniswapv2-standard
+  - token0: "0xc4374775489cb9c56003bf2c9b12495fc64f0771"
+    token1: "0xd4ee376c40edc83832aaafc18fc0272660f5e90b"
+    routers:
+      - pool: "0x925a2a7214ed92428b5b1b090f80b25700095e12"
+        protocol: aave
+        underly: "0xC4374775489CB9C56003BF2C9b12495fC64F0771"
