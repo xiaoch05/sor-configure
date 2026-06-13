@@ -10563,6 +10563,11 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0x6efc3410ddb239f614436290c6be99c51ea7134cf1300e270c3e93360ced9552"
+  - token0: "0x3129c32d2e4d53d300401b9720432762d27b70d2"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x7376caaf0629b5276494064cb68a55035966ad03"
   - token0: "0x312e8d3caddc69f131aa077cea0f98ed03be66ac"
     token1: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     routers:
@@ -31604,6 +31609,8 @@ pairs:
         decimals0: "1000000"
         decimals1: "1000000000000000000"
         stable: false
+      - protocol: uniswapv4
+        pool: "0x293775ae66e4bc7f79f2df892243ac11684881afdb49d8bd6bcd9f60ff4ebbd9"
       - protocol: uniswapv4
         pool: "0x61aad60fe5ea9d1817579ba2d867971f6451795d659a62030bcfa815fa9d4b3b"
       - protocol: uniswapv4
