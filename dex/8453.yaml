@@ -2607,6 +2607,11 @@ pairs:
     routers:
       - pool: "0x95ead9bcc08dd710a2f5bcd4044f3d2949003818608c7ce738522bf7f7b8224d"
         protocol: uniswapv4
+  - token0: "0x0b541035eb48d42d5fc21147f001abcb1f29ac9d"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x85be540ef9aa6337ce805092eaf50bf967aee850984d99096bebef84572a2160"
   - token0: "0x0b5413f35dfa207306c24763146fd4891c243960"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -5009,6 +5014,11 @@ pairs:
         pool: "0xaa94109f741b15fa39839a60fc9a29e5ba9e3db8"
       - protocol: uniswapv4
         pool: "0x147e90e02a91c1d0eb3887a4c08f64d8da8ae70a8cefe8f8612099519962aab7"
+  - token0: "0x16f93ebc5320c89efc8701577efe49d14a276a06"
+    token1: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x1a03d2759d43c262c0fe6f2f1f6e9b6fded62de9"
   - token0: "0x170c57f9d398cd88bf7a347875cba55ab808b2d3"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -14330,6 +14340,11 @@ pairs:
     routers:
       - pool: "0x3db0d110dea18e57332689d8a0e907cf20ff65ef"
         protocol: uniswapv2-standard
+  - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0x561f4fb3e64f1eb94834fbf2b76d6ab56dfaa2ad"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x1f76d5871cdd49120adc4440760955cd517eee6a89e94899493f08e2cf94a8cf"
   - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x568664cb237d2a730e9b8c11850ec62b633c5c45"
     routers:
@@ -26125,6 +26140,15 @@ pairs:
       - pool: "0xf5ec85555ed831a28cfd07ed0282b2c9e98c7bcb"
         protocol: uniswapv2-aerodrome
         router: "0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000000000000"
+        decimals1: "1000000000000000000"
+        stable: false
+  - token0: "0x5ab3d4c385b400f3abb49e80de2faf6a88a7b691"
+    token1: "0xbcae4c4db4c5e6518d09c858d74116ae8d82c517"
+    routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0x691131030d2e6a9b917970f8012d390f5b403c06"
         factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
         decimals0: "1000000000000000000"
         decimals1: "1000000000000000000"
