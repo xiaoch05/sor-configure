@@ -3459,6 +3459,11 @@ pairs:
       - protocol: uniswapv4
         pool: "0x755ac3e02d1117dbb57b9dee4a22498f131c806740d09447a68358e243c9d444"
   - token0: "0x1111111111166b7fe7bd91427724b487980afc69"
+    token1: "0x2151a500a1d01846f06b460e27181e95066fe7eb"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x805803c4db9f88174bfff2f5a6381006ab2e4b73"
+  - token0: "0x1111111111166b7fe7bd91427724b487980afc69"
     token1: "0x30bcd19a2e80a3ea73b3aac1eae1b08e3b9b2cef"
     routers:
       - protocol: uniswapv4
@@ -10126,6 +10131,11 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0x2ed3fd9750eb5fbeb9ddcd5798c1f5a5a0746394d183262bd93228363a2c0ad8"
+  - token0: "0x3175be054d93ed81615496d551919710c70aace5"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xb69e900bcf0f4ca66e845dd3bf304a5cde7b569214f73f45526d5173740ec20d"
   - token0: "0x317621481476554e1cf3f9add06abd70ffb007f4"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -11335,6 +11345,11 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0x8b1c56ec2fa909fb29125e381cd5c43a2455c999ca71a6e43ba776d08ea56de4"
+  - token0: "0x37d2adc008118d04f259fc0c16ff66bf5a637d20"
+    token1: "0x76e44c1b73d2676153913efd5bcf060b8a154d4d"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x42b8aa74fd3937167930ee8807aaf28fb4b380f8905d7be8ef7d18beb826eadb"
   - token0: "0x37d3d61a304695619433bc05ef841e889f69debf"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -14313,6 +14328,12 @@ pairs:
         protocol: uniswapv3
       - protocol: uniswapv3
         pool: "0x7f31b371ac675bca3357fd9c26854fed067400c0"
+      - protocol: uniswapv2-aerodrome
+        pool: "0xd9e281e562024595836b6221ea689678cc5cceae"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000000000000"
+        decimals1: "1000000000000000000"
+        stable: false
   - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x55b3e31739247d010ece7ddc365eae512b16fa7e"
     routers:
@@ -15053,6 +15074,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x16c6411e3af5843587af4429ec11aa6d97b84b36"
+  - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0x60e7b63d7e420142bdab711e7ec54650bd9e4449"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x7cb55b6af142d42177f6a3387f7e7d3699f86167"
   - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x60edae6e86546428da423b5fbe0fba46ca552fc7"
     routers:
@@ -17500,6 +17526,11 @@ pairs:
         decimals1: "1000000000000000000"
         stable: false
   - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0x855ede707528ba43f7bb3a15e2c2fc662c718081"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x28f5312af799e94fc361665953e92c4e7a8ef2a80b5435611328e8c1f6605b50"
+  - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x85645b86243886b7c7c1da6288571f8bea6fc035"
     routers:
       - pool: "0x4757ea131dc0cc7d16622b68196b99cd8218c902"
@@ -18650,6 +18681,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x24da3704956580d62f4b49cbd3e5dd9da775e517"
+  - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0x999879e27a9236d4f40d0728f5ac23fd801c695b"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xc75869cf613b66e8d985849f10dd9c01356ef91d85f06fe8aed6cf8249d6b7d8"
   - token0: "0x4200000000000000000000000000000000000006"
     token1: "0x9999999999999d8b360c6985db1a74a0f3b75e1b"
     routers:
@@ -35888,6 +35924,15 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0x841cbea70e5b0090b104d1a589b33384fa483ea0e7a023a0b5427c8a9010e43e"
+  - token0: "0xc5a90b067ea7535c0be245fb0d52a8b9ae7f6adf"
+    token1: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+    routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0xa935e6f59474013966820da05f98a97bf75c1c6b"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000000000000"
+        decimals1: "100000000"
+        stable: false
   - token0: "0xc768c589647798a6ee01a91fde98ef2ed046dbd6"
     token1: "0xe298b938631f750dd409fb18227c4a23dcdaab9b"
     routers:
