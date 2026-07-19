@@ -8413,6 +8413,15 @@ pairs:
         protocol: uniswapv3
       - protocol: uniswapv3
         pool: "0xc1c11814797f724bb03ae58c2fbc22a5b2ca2fcb"
+  - token0: "0x26194f4cc88ffcfbabfa22e1faf7fe5eb0ee802b"
+    token1: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0xfccca3a04f1b924dfc52dac630487d209867e989"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000"
+        decimals1: "1000000"
+        stable: false
   - token0: "0x261a17fac9a6bc2080a186ad7af78380c16b02b7"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -24126,6 +24135,11 @@ pairs:
       - protocol: uniswapv4
         pool: "0xf2f5e7645b8090bd451a06199ab3261a805f4113c49033a2014d5d55ceb44123"
   - token0: "0x4200000000000000000000000000000000000006"
+    token1: "0xb2000000000000000000008490555611bbad993f"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xa027561c7e68177f38a3c8068f386f9d0e8ecfd27149b6bdf564c55796a06aa6"
+  - token0: "0x4200000000000000000000000000000000000006"
     token1: "0xb2000000000000000000008a168c56abb9f15efe"
     routers:
       - protocol: uniswapv4
@@ -33184,6 +33198,11 @@ pairs:
         protocol: balancer-weighted-pool-v3
         factory: "0x5cf4928a3205728bd12830e1840f7db85c62a4b9"
         vault: "0xba1333333333a1ba1108e8412f11850a5c319ba9"
+  - token0: "0x742e4af0e6dfb33c946327d95503c7bc2df34b07"
+    token1: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x1eabaa41dc849b2c0b64b942f49bd5f7cc8af9af6649fa65f839be05b1be6970"
   - token0: "0x7431ada8a591c955a994a21710752ef9b882b8e3"
     token1: "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf"
     routers:
