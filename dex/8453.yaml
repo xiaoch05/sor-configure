@@ -1988,6 +1988,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x5f34583f27d841ed9521af623ad4c38bc7621724"
+  - token0: "0x08c093af955b2bcc464fa4c15a4bd045423a9cb9"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xd79e32d7c54f2861e44bd1deb4c7bee07c5224a2"
   - token0: "0x08cc293091bd9d69bc0c67819133bd944d7bfb75"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -9844,6 +9849,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0xb051af2ad6a4f1e19aab7a428d60fc6f65b58e4a"
+  - token0: "0x2d23bd9dda59878ed572dc6acf6f4f89235cb365"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x85d4027a9db56aa47051cdcc484c46d8080e036e"
   - token0: "0x2d3e8859210feaba203aacd792cf4ff9d350578f"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
@@ -35091,6 +35101,8 @@ pairs:
       - protocol: uniswapv4
         pool: "0x5a82c49e044ce65fd6a4ec0bfa07d728de1e561093e060c6cc19d755d3d5aea5"
       - protocol: uniswapv4
+        pool: "0x5aa685d7e980c3f37d57f6382118d4e31673b16959893b96697073f22344945a"
+      - protocol: uniswapv4
         pool: "0x5bba3306f34f92c3a2422fda548e830a64870218b75301fe48948202f8407bb9"
       - protocol: uniswapv4
         pool: "0x5c1e5edad20189982386915044bf2a54d50d48fd16a7313e6ab99c47848f5bcf"
@@ -37585,6 +37597,15 @@ pairs:
     routers:
       - protocol: uniswapv2-aerodrome
         pool: "0xb9ffcaeee036084bea39dc993d842539d91a59c0"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000000000000"
+        decimals1: "1000000000000000000"
+        stable: false
+  - token0: "0x8ea57c4d7a6a88c90bcf038d37939fae61305a88"
+    token1: "0xbaa5cc21fd487b8fcc2f632f3f4e8d37262a0842"
+    routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0xbffa750df75cec7014a84a2b7e7156b43db8af35"
         factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
         decimals0: "1000000000000000000"
         decimals1: "1000000000000000000"
