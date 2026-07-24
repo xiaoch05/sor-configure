@@ -4670,6 +4670,11 @@ pairs:
         underly: "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
         pool: "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2"
   - token0: "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+    token1: "0xb58e61c3098d85632df34eecfb899a1ed80921cb"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xe0a78cb98be178b3dbf482df7f637b18090d179b7ecaf352a234526a268feb50"
+  - token0: "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
       - protocol: pancakev3
@@ -36251,6 +36256,8 @@ pairs:
     routers:
       - pool: "0xd9a436d687b04dd5cd3edc3325c9776fba685159"
         protocol: twocrypto
+      - protocol: uniswapv4
+        pool: "0x989d381349160c7ccc61a75975cf234c998a314a75d6aeadc6164a7e530a4474"
   - token0: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     token1: "0xeba6145367b33e9fb683358e0421e8b7337d435f"
     routers:
