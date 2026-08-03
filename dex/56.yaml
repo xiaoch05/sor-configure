@@ -33966,6 +33966,11 @@ pairs:
     routers:
       - protocol: uniswapv2-standard
         pool: "0x4f04414c7706982709f6d52b8100da60aa1a09da"
+  - token0: "0x37e94fc028903e74275478b65160d6d2c0e8880b"
+    token1: "0x55d398326f99059ff775485246999027b3197955"
+    routers:
+      - protocol: pancakev3
+        pool: "0x60f9c05eece9a2594955d64efe96e69a73bdab44"
   - token0: "0x37e9a07d6f9c8dd7422da7d0e94a5bd15751c836"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
@@ -53169,6 +53174,8 @@ pairs:
     routers:
       - pool: "0x55d398326f99059ff775485246999027b3197955"
         protocol: native
+      - protocol: pancakev3
+        pool: "0x613ebcfcf41749571d659a0bf3e2c0032fd4859e"
       - protocol: pancakev3
         pool: "0xb0f5e5400e8f0f7c242f2b7740c004f020579c41"
       - protocol: uniswapv4
