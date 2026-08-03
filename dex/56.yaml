@@ -2070,6 +2070,11 @@ pairs:
       - protocol: uniswapv2-standard
         pool: "0x29271ed4b6b8ff41c326c81ca040fd110a4a047e"
   - token0: "0x02fca66c1d1afb4e2a7884261eb00f63598a7436"
+    token1: "0xa9ee28c80f960b889dfbd1902055218cba016f75"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xcccfc65c871b005e61de77265cdb2f98be547f9c75ec5476f8b4c160db3836c4"
+  - token0: "0x02fca66c1d1afb4e2a7884261eb00f63598a7436"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
       - protocol: pancakev3
@@ -14185,6 +14190,8 @@ pairs:
         symbol: SQQQon
         duration: long
         maxTradeAmount: "500000"
+      - protocol: pancakev3
+        pool: "0x40d38ef4782beb126a36d733d63baf9300fc6587"
   - token0: "0x1753042658212383c5b49211e9976af51f167362"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
@@ -63836,6 +63843,8 @@ pairs:
         symbol: NVDAon
         duration: long
         maxTradeAmount: "500000"
+      - protocol: pancakev3
+        pool: "0xb90bdbfbdffd4af5a636b5805539edeafb969308"
       - protocol: uniswapv4
         pool: "0xbc0922a7ac6fa6283346554146a912186f9bd1e28420f01f7a39e08e1dbdd453"
       - protocol: uniswapv4
@@ -67127,6 +67136,11 @@ pairs:
     routers:
       - protocol: uniswapv2-standard
         pool: "0x656c521d0ffa8455ebd7876acbe3cc26da6d4cb2"
+  - token0: "0x55d398326f99059ff775485246999027b3197955"
+    token1: "0xc22955b28e092060bc5d1e1f3b9d4dcd81091111"
+    routers:
+      - protocol: uniswapv2-standard
+        pool: "0x38244009b38f14fb37d276c02995eea615ffa76f"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xc22dedc5c3acc203b4e2a619b820b55e602f7165"
     routers:
