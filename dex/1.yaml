@@ -21715,14 +21715,14 @@ pairs:
   - token0: "0x96f6ef951840721adbf46ac996b59e0235cb985c"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
-      - protocol: uniswapv4
-        pool: "0x2563a21d1a219308fda046c39ca4f65d6db700201cd9beb200c7f774e8c1a12a"
-      - pool: "0x8bc3936169f56cc98d70ffd0dd6e1f130b372aab9249633a70478ddacd67218b"
-        protocol: uniswapv4
       - protocol: usdy
         pool: "0xa42613c243b67bf6194ac327795b926b4b491f15"
         usdy: "0x96f6ef951840721adbf46ac996b59e0235cb985c"
         depositDecimals: 6
+      - protocol: uniswapv4
+        pool: "0x2563a21d1a219308fda046c39ca4f65d6db700201cd9beb200c7f774e8c1a12a"
+      - pool: "0x8bc3936169f56cc98d70ffd0dd6e1f130b372aab9249633a70478ddacd67218b"
+        protocol: uniswapv4
   - token0: "0x96f6ef951840721adbf46ac996b59e0235cb985c"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
@@ -26329,6 +26329,8 @@ pairs:
     routers:
       - protocol: pancakev3
         pool: "0xa6d5e5fbbfc78bb2f21a9ab4741bbd2e235d61e9"
+      - protocol: uniswapv3
+        pool: "0xc0194c03f280fd64ca723eed626fbecea10ff80d"
   - token0: "0xad2afccec0384f272f430e763041f0ba4decbe27"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
