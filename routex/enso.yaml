@@ -1,0 +1,25 @@
+enso:
+  baseURL: "https://api.enso.build"
+  routePath: "/api/v1/shortcuts/route"
+  deadlineSeconds: 300
+  pair:
+    - chainId: 1
+      tokenIns:
+        - "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOuts:
+        - "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+    - chainId: 1
+      tokenIns:
+        - "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOuts:
+        - "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    - chainId: 56
+      tokenIns:
+        - "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+      tokenOuts:
+        - "0x55d398326f99059ff775485246999027b3197955"
+    - chainId: 56
+      tokenIns:
+        - "0x55d398326f99059ff775485246999027b3197955"
+      tokenOuts:
+        - "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
