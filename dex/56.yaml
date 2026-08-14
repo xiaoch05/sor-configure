@@ -75757,6 +75757,13 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
+    token1: "0xede00776439f9c49c592e43eee34777a51847777"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xcd27d0f6c4d64c1d8ea6b5ce98a532dfbf720ef5"
+      - protocol: pancakev3
+        pool: "0xd9265bb5a2552ecfb0da6d5edc7874d71156ec4c"
+  - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xede4515dc56d5601a390ceb177ff988a5c5bdfc5"
     routers:
       - protocol: uniswapv2-standard
@@ -75909,6 +75916,11 @@ pairs:
     routers:
       - protocol: uniswapv2-standard
         pool: "0x652c061d0e3b84436d7b22523c9ad17507832bbc"
+  - token0: "0x55d398326f99059ff775485246999027b3197955"
+    token1: "0xeec6574eabba52bac3f0277f2cd5ac7e67197886"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xe661d698771c8c87fce71ebad1de639181decefc7e95b5079b16bd392a8549a1"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xeeca71a751ab52f25a371065d168e0fcc3c8b00d"
     routers:
