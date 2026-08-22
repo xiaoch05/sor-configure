@@ -26961,6 +26961,11 @@ pairs:
       - protocol: uniswapv2-standard
         pool: "0x219e2b5ff5dfaf3d269bbb1ddb3e1a7b3236c7ce"
   - token0: "0x2a2227a5fabcc14cecbc696daa232cdde9aafce1"
+    token1: "0x55d398326f99059ff775485246999027b3197955"
+    routers:
+      - protocol: uniswapv2-standard
+        pool: "0xd7009def216d088a673892c213c941d127cfe32b"
+  - token0: "0x2a2227a5fabcc14cecbc696daa232cdde9aafce1"
     token1: "0xc748673057861a797275cd8a068abb95a902e8de"
     routers:
       - protocol: uniswapv2-standard
@@ -76596,6 +76601,8 @@ pairs:
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xeee9eee593cb8f7946260b4066cba7907f40acfa"
     routers:
+      - protocol: pancakev3
+        pool: "0x167c88898537ea7dc756d9b0bf7489a068f0b497"
       - pool: "0xeee9eee593cb8f7946260b4066cba7907f40acfa"
         protocol: ondo
         symbol: DISon
