@@ -37604,6 +37604,13 @@ pairs:
     routers:
       - protocol: uniswapv2-standard
         pool: "0x0c789a81c03f0f1871e54f9613f16ab0a460fe64"
+  - token0: "0x3c2f61f2e27c865981d2e7aaf6b2cdf823030039"
+    token1: "0x55d398326f99059ff775485246999027b3197955"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xe98171c5ae52da6024e2e45f958274e1d03ef95d"
+      - protocol: uniswapv4
+        pool: "0x085205158c6509e65e8f2bf56d951d5034a2b7f9a9714620d2cbe2351293b89b"
   - token0: "0x3c31dd7c2b5a5057a9fd7c941d8c2e707dc39fa0"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
@@ -72224,6 +72231,8 @@ pairs:
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0xd09f7b75b9659b864c6f82bb00ff096f9d277998"
     routers:
+      - protocol: pancakev3
+        pool: "0x4b22f6c5a2bdb1d5a2140bea98b79d8e0b152d51"
       - pool: "0xd09f7b75b9659b864c6f82bb00ff096f9d277998"
         protocol: ondo
         symbol: LMTon
