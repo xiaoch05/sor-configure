@@ -1718,6 +1718,15 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0xbf2704baa7b710072d4c81f2634affe180b5e3af000d7d9225d5c1dcc9660c3c"
+  - token0: "0x07848a7b542a9cd856122c6c4ab9ec87c44f8b63"
+    token1: "0x4200000000000000000000000000000000000006"
+    routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0xe5ff8a4dc6f0dc2fe166392139fd1836e8591a8c"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000000000000"
+        decimals1: "1000000000000000000"
+        stable: false
   - token0: "0x078ba323d4efe1f80a8aabb0cef8a0c8d6e3165c"
     token1: "0x4200000000000000000000000000000000000006"
     routers:
