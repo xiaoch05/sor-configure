@@ -10380,6 +10380,15 @@ pairs:
       - protocol: pancakev3
         pool: "0x155613e7a75a2ab73500f9b2c45910469500ff56"
   - token0: "0x311935cd80b76769bf2ecc9d8ab7635b2139cf82"
+    token1: "0x9b8df6e244526ab5f6e6400d331db28c8fdddb55"
+    routers:
+      - protocol: uniswapv2-aerodrome
+        pool: "0xa260a129622c5600e67d75b6006fb3c612cf26c3"
+        factory: "0x420dd381b31aef6683db6b902084cb0ffece40da"
+        decimals0: "1000000000"
+        decimals1: "1000000000000000000"
+        stable: true
+  - token0: "0x311935cd80b76769bf2ecc9d8ab7635b2139cf82"
     token1: "0xc39b51bc27642da7493c8e4b08ac5a79e9afc326"
     routers:
       - protocol: uniswapv3
