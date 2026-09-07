@@ -25510,6 +25510,8 @@ pairs:
         protocol: bebop
       - protocol: uniswapv4
         pool: "0x6ce28c8bf8719b5aa16ca02a98803abafe17109fcb85804171df3da8322605b7"
+      - protocol: uniswapv4
+        pool: "0x925e853ddd6967c208c493d66d7a6f244a6369e4c3e742b1ce0920f947ac4d8e"
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xae4533189c7281501f04ba4b7c37e3aded402902"
     routers:
@@ -27986,6 +27988,11 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
         assetType: stock
+  - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    token1: "0xeb53ced2ee9179a145f25e15f371766d13f52222"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xcaba251607ea377cc0a9058cdd36d3b1534461853cffb29b5cb7b99834e36108"
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xebe0d1b1d50bc68458fcdc45c3c276d57cdc422b"
     routers:
