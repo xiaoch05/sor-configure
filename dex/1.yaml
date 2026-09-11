@@ -535,6 +535,8 @@ pairs:
   - token0: "0x01a8b61e7b03891a736b5df865e0ef9c511850ad"
     token1: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
     routers:
+      - protocol: uniswapv3
+        pool: "0xf22f8e711aaed67f4ec4a04c93e1bd19b7843c43"
       - protocol: uniswapv4
         pool: "0x94ae557b1f24e1360ea34283686ef3af173d89d7d1bab66d8ae19198a9a0cde0"
       - protocol: uniswapv4
@@ -977,6 +979,8 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x33676385160f9d8f03a0db2821029882f7c79e93"
+      - protocol: uniswapv4
+        pool: "0xf99308ac5bba8f65e1e60439cb5b5ceef0ec6634fc5c93ac84d8ff54a85d0b34"
   - token0: "0x046eee2cc3188071c02bfc1745a6b17c656e3f3d"
     token1: "0xff541139c60bb38ce2159a13d656f0f38aa96ff4"
     routers:
@@ -2412,6 +2416,8 @@ pairs:
     routers:
       - pool: "0x4253a29f53068b8c8644e5e806dcd2059e1c9ff71ff3795c96ac1e5fa140ae19"
         protocol: uniswapv4
+      - protocol: uniswapv4
+        pool: "0x5143d43e734bc5fe1710d04a6ff40b8275cc1b7a178aed107d2d615ee6591670"
   - token0: "0x0df3a853e4b604fc2ac0881e9dc92db27ff7f51b"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
@@ -2799,6 +2805,11 @@ pairs:
     routers:
       - pool: "0x17ff50bc8bdb01f2b0e147e6004c6f6c11e776af"
         protocol: uniswapv2-standard
+  - token0: "0x100acd9fcd8e0ff80a6595b66fdabe93184aa100"
+    token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xde119e44cdc839a90f0f8ee156f7e4c628bd978d"
   - token0: "0x1032abe2902a23ddcbab085c20e0e69c33ceb8fa"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -4276,6 +4287,10 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0x25f44378ddee919a8b915575453647bbd3c6b783761c9436ad8b75b9a9123d61"
+      - protocol: uniswapv4
+        pool: "0x3b4962f1b1c65442e67d8e14ece6d9f14e0950baf3cdeac1bef15555a8f4b0bb"
+      - protocol: uniswapv4
+        pool: "0xabc4aca2bbede9a98563f7660e126272f1a86137ba07c655e4d4ec2245a933bf"
   - token0: "0x1ab9e92cfde84f38868753d30ffc43f812b803c5"
     token1: "0xb4444468e444f89e1c2cac2f1d3ee7e336cbd1f5"
     routers:
@@ -4933,6 +4948,8 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
         assetType: stock
+      - protocol: uniswapv4
+        pool: "0x372aaa0dcd79c82516055d39cf94414e73a58b9a4ee3ba241e90f8e030b24466"
   - token0: "0x1f6102a413d72a6d37479405adf14e8d7910032a"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -7366,6 +7383,10 @@ pairs:
         assetType: stock
       - protocol: uniswapv3
         pool: "0xf5294094bce435bfbd0ec488be5c462aaf32bc7a"
+      - protocol: uniswapv4
+        pool: "0xa9a6651fba74df1aab94065ffaabe750d6ed835b94a9e28925ec79beec2d5f73"
+      - protocol: uniswapv4
+        pool: "0xff145fd4d52ebd0e758393740aea7eb6228569285b348176c1cdfc5363793b72"
   - token0: "0x2d1f7226bd1f780af6b9a49dcc0ae00e8df4bdee"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
@@ -8621,6 +8642,15 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0xe127b91c6cdcb155d118d17e9879444e78e03387a9897c9f1f2ef4945cd655c8"
+  - token0: "0x36b90adcdc99be31bf39a3c031288baa0b457e10"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - pool: "0x36b90adcdc99be31bf39a3c031288baa0b457e10"
+        protocol: ondo
+        symbol: GOOGon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
   - token0: "0x36c424a6ec0e264b1616102ad63ed2ad7857413e"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
@@ -10147,6 +10177,8 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
         assetType: stock
+      - protocol: uniswapv3
+        pool: "0x89dfb4033d87f3b15dc1badb4a7b97e01cc41837"
   - token0: "0x423d42e505e64f99b6e277eb7ed324cc5606f139"
     token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     routers:
@@ -10612,6 +10644,15 @@ pairs:
     routers:
       - pool: "0x5b2c9ef1bf180a844389c0fd42b15c8281e69052"
         protocol: uniswapv2-standard
+  - token0: "0x4554ad55cca5e7cb97b77813f486aaf6d4d9ab62"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - pool: "0x4554ad55cca5e7cb97b77813f486aaf6d4d9ab62"
+        protocol: ondo
+        symbol: AIon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
   - token0: "0x4554cc10898f92d45378b98d6d6c2dd54c687fb2"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -11632,6 +11673,8 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x536a65800167b07b9e5cabb9088b17df3f827fb2"
+      - protocol: uniswapv4
+        pool: "0x3a0e95e7debf670822bec41cdf0da3c5bb11f9e3cd02f119e68c33a4444f1db5"
   - token0: "0x4ba01f22827018b4772cd326c7627fb4956a7c00"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
@@ -12567,6 +12610,13 @@ pairs:
       - pool: "0x39de6c18d82ab9dd1ed4b9e0b4d1bc971ddd6c9d"
         protocol: uniswapv2-standard
   - token0: "0x50614cc8e44f7814549c223aa31db9296e58057c"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x81089af83d34340ed1267f3d282e04573c42f12ad4c5ad0b036bdbec9546ce38"
+      - protocol: uniswapv4
+        pool: "0xd3f9496d2c2442debffc58d1d056e3e785e8adab1152c378b58d704e29c768b3"
+  - token0: "0x50614cc8e44f7814549c223aa31db9296e58057c"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
       - protocol: uniswapv4
@@ -12744,6 +12794,8 @@ pairs:
         protocol: bebop
       - pool: "0x5d4f3c6fa16908609bac31ff148bd002aa6b8c83"
         protocol: uniswapv3
+      - protocol: pancakev3
+        pool: "0x7ca3edb2c8fb3e657e282e67f4008d658aa161d2"
       - pool: "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974"
         protocol: uniswapv2-standard
       - protocol: uniswapv3
@@ -12961,6 +13013,8 @@ pairs:
         protocol: bebop
       - protocol: uniswapv3
         pool: "0xc74f05c1e7b86fa42ab07ab4a1361286b9a90087"
+      - protocol: uniswapv4
+        pool: "0x05cae80c6afb81817a97f09486fc3af5da9cdb4a8e2e3175072eca80f5d01580"
       - protocol: uniswapv4
         pool: "0x75a268a933a6d9f2581588fc85445b6b5f881abecc5e5fb579d5bdbfadcaf247"
       - protocol: uniswapv4
@@ -14858,6 +14912,15 @@ pairs:
     routers:
       - pool: "0xfdc650aac7faa54be1b33cd161a9242aaf62c42d"
         protocol: uniswapv2-standard
+  - token0: "0x613518b520241f90c3e023bb6006c63a5019ca7b"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - pool: "0x613518b520241f90c3e023bb6006c63a5019ca7b"
+        protocol: ondo
+        symbol: WENon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
   - token0: "0x614577036f0a024dbc1c88ba616b394dd65d105a"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -15948,6 +16011,15 @@ pairs:
         protocol: balancer-weighted-pool
         poolId: "0x92762b42a06dcdddc5b7362cfb01e631c4d44b40000200000000000000000182"
         vault: "0xba12222222228d8ba445958a75a0704d566bf2c8"
+  - token0: "0x6830f7bbfd274e393a32846918da9de210879ae4"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - pool: "0x6830f7bbfd274e393a32846918da9de210879ae4"
+        protocol: ondo
+        symbol: USHYon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
   - token0: "0x683a4ac99e65200921f556a19dadf4b0214b5938"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -17765,6 +17837,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x62d06043f46a7201a835759aaaaf7f7deaf60315"
+  - token0: "0x6a77e39240da69ea788e4cf93663d2c41ea4b12b"
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xfa3118c505b4bc605de9fc29a772f45149dfe25e04e66d890fae10e64180deda"
   - token0: "0x6a7ef4998eb9d0f706238756949f311a59e05745"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -19443,6 +19520,11 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x7fd9ae9f1269c39419472b6ccbdb20bd5f4ab845"
+  - token0: "0x75e2fc69ff2ac12af65ba7d321bbf4f878c535d2"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x00cd004cf41c18f481cfc87d8f8bc99ba0e491983099465c174f40d64218d288"
   - token0: "0x75e88b8c2d34a52a6d36deada664d7dc9116e4ef"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -20456,6 +20538,15 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x75a5a265d21bc89ec130f18edde2b49a4b200dac"
+  - token0: "0x7e37ac5d67ebe99851193cd036d7725b6730c53d"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - pool: "0x7e37ac5d67ebe99851193cd036d7725b6730c53d"
+        protocol: ondo
+        symbol: NEARon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
   - token0: "0x7e5ca49c3dfe0eb0149464c74e9cbd1776431d97"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -20466,6 +20557,15 @@ pairs:
     routers:
       - pool: "0x8c13d5a6635216513ebfb4483397be14d494ad76"
         protocol: uniswapv2-standard
+  - token0: "0x7e95779d2d7b4a654a4ac80cb6423ae8998cf1e7"
+    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    routers:
+      - pool: "0x7e95779d2d7b4a654a4ac80cb6423ae8998cf1e7"
+        protocol: ondo
+        symbol: HTZon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
   - token0: "0x7e9c4e3a041480b94b499ffca577eddebe8d22a4"
     token1: "0x8900f70f8df3d7834a543b1b26b08dbe19799cad"
     routers:
@@ -24047,6 +24147,8 @@ pairs:
       - protocol: uniswapv4
         pool: "0x0a9d9fa163a2eba0452773bd0437cd0c35174ddaaaeae2c35100a862a73b8bba"
       - protocol: uniswapv4
+        pool: "0x124b3f56df78a7231278856a43137027f170859f470a8f75357f0c56fde2001a"
+      - protocol: uniswapv4
         pool: "0x2480aea56b9b5d691713fc84efe6443eadd888773490ef12aed44655d96a63b1"
       - protocol: uniswapv4
         pool: "0x69d57af146163a5fd2030783093c304969ea9f42c19e9cc8349a5b9263b2ab13"
@@ -24056,6 +24158,8 @@ pairs:
         pool: "0xaa6f82f7cf7e44c583bb2885e9e6af3c955e38774b14efd37e52fe681642ac88"
       - protocol: uniswapv4
         pool: "0xbdc7ab9675affaf346ce0d7009f2fce9863614f1fba06e8c121b9de4b43c9109"
+      - protocol: uniswapv4
+        pool: "0xbe7c178b4681f686defbe0a81d4c25d9f23ce8b306f82e4fc9ab055dfff5551b"
   - token0: "0x98a878b1cd98131b271883b390f68d2c90674665"
     token1: "0xd166337499e176bbc38a1fbd113ab144e5bd2df7"
     routers:
@@ -26337,6 +26441,8 @@ pairs:
     routers:
       - pool: "0xc4fa9fd2e51e41c2be2c3a77c53710b224e1b31d"
         protocol: uniswapv2-standard
+      - protocol: uniswapv4
+        pool: "0x0593d8e4ae2ddb197e57ff0a16171e2636def6e22f0cd243e180306ea0253d83"
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xc087ea645a1efe021577c19413fbe39d617a3196"
     routers:
@@ -27301,6 +27407,15 @@ pairs:
       - protocol: uniswapv4
         pool: "0x8417779dd5772774045762327de7d94017a4a6c6015571b17b173d236e1366cc"
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    token1: "0xdaa3b81a3acfcb60b875eba1d26852376bc38486"
+    routers:
+      - pool: "0xdaa3b81a3acfcb60b875eba1d26852376bc38486"
+        protocol: ondo
+        symbol: RXRXon
+        duration: long
+        maxTradeAmount: "2000000"
+        assetType: stock
+  - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
       - protocol: pancakev3
@@ -27339,6 +27454,8 @@ pairs:
         pool: "0xee4cf3b78a74affa38c6a926282bcd8b5952818d"
       - pool: "0x0fb0e40cec3bb23e13abc585958a93c796fbea56955e19a23727a716a0423239"
         protocol: uniswapv4
+      - protocol: uniswapv4
+        pool: "0x2b21c65d9a7dc6926ee330a1c6e5a8037fd81774f3dc066536f800128e39f634"
       - protocol: uniswapv4
         pool: "0x395f91b34aa34a477ce3bc6505639a821b286a62b1a164fc1887fa3a5ef713a5"
       - protocol: uniswapv4
@@ -27659,69 +27776,6 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
         assetType: stock
-  - token0: "0x6830f7bbfd274e393a32846918da9de210879ae4"
-    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    routers:
-      - pool: "0x6830f7bbfd274e393a32846918da9de210879ae4"
-        protocol: ondo
-        symbol: USHYon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
-  - token0: "0x7e37ac5d67ebe99851193cd036d7725b6730c53d"
-    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    routers:
-      - pool: "0x7e37ac5d67ebe99851193cd036d7725b6730c53d"
-        protocol: ondo
-        symbol: NEARon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
-  - token0: "0x36b90adcdc99be31bf39a3c031288baa0b457e10"
-    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    routers:
-      - pool: "0x36b90adcdc99be31bf39a3c031288baa0b457e10"
-        protocol: ondo
-        symbol: GOOGon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
-  - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    token1: "0xdaa3b81a3acfcb60b875eba1d26852376bc38486"
-    routers:
-      - pool: "0xdaa3b81a3acfcb60b875eba1d26852376bc38486"
-        protocol: ondo
-        symbol: RXRXon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
-  - token0: "0x7e95779d2d7b4a654a4ac80cb6423ae8998cf1e7"
-    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    routers:
-      - pool: "0x7e95779d2d7b4a654a4ac80cb6423ae8998cf1e7"
-        protocol: ondo
-        symbol: HTZon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
-  - token0: "0x613518b520241f90c3e023bb6006c63a5019ca7b"
-    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    routers:
-      - pool: "0x613518b520241f90c3e023bb6006c63a5019ca7b"
-        protocol: ondo
-        symbol: WENon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
-  - token0: "0x4554ad55cca5e7cb97b77813f486aaf6d4d9ab62"
-    token1: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    routers:
-      - pool: "0x4554ad55cca5e7cb97b77813f486aaf6d4d9ab62"
-        protocol: ondo
-        symbol: AIon
-        duration: long
-        maxTradeAmount: "2000000"
-        assetType: stock
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     token1: "0xe1202a5ecdbc13602c23b737dfc51ad75eaf4fb6"
     routers:
@@ -27836,6 +27890,8 @@ pairs:
         pool: "0xe22b28c9bee610f6763a3d0a11d1415fa4db63fdb7f2e3db843e21a5a8c174f4"
       - protocol: uniswapv4
         pool: "0xe8a0130a096e1d5b69f9e5c3e220ebd32bade82fcf9521936405465b826b57cb"
+      - protocol: uniswapv4
+        pool: "0xeda62d2906d0edf26d40c793d581609552a44a87f618a98ff76ebe8dde4b7edb"
       - protocol: uniswapv4
         pool: "0xf3168df8862afb79c1a881a8b74ae62a1d274a3b50d794df075c0a05de7963b4"
   - token0: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
@@ -30953,6 +31009,8 @@ pairs:
     routers:
       - protocol: uniswapv4
         pool: "0x2e3a2d2762c4c1cba48a26185fe4c1483db2ecfaef3e02f5aa48a20de1324ea3"
+      - protocol: uniswapv4
+        pool: "0xd9a890ad30059dd67b61257b87a609f9233c1b1aec0af926d1c889d8c967b439"
   - token0: "0xb60fdf036f2ad584f79525b5da76c5c531283a1b"
     token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     routers:
@@ -32822,6 +32880,8 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x15aa01580ae866f9ff4dbe45e06e307941d90c7b"
+      - protocol: uniswapv3
+        pool: "0x66dd1acc5da42502ddd469277aed509d1de22b69"
       - pool: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
         protocol: bebop
       - protocol: uniswapv4
@@ -34874,6 +34934,8 @@ pairs:
         protocol: bebop
       - protocol: uniswapv4
         pool: "0x18380b385d1385cea1780b620c84db114258fb960f1f4b9ea7585b0e30375b47"
+      - protocol: uniswapv4
+        pool: "0x5e1498380c5749e8f75850b7c819cf72cef7efa0e85d5af2096f6e0d78d89579"
   - token0: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
     token1: "0xe6d1ad080d87d67e5b06ce56faa71fe67def4422"
     routers:
@@ -37469,6 +37531,8 @@ pairs:
         pool: "0x51c2e82b1d0815eda5f21d63795a77774e988e50"
       - protocol: uniswapv3
         pool: "0xe6cb353be74d0efd8f7280130d67cd2665826027"
+      - protocol: uniswapv4
+        pool: "0xef0a53808c2cae1f0348ac069f66fabf17ba5da5c07dbb0917e8343b84cfe641"
   - token0: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     token1: "0xdb85f6685950e285b1e611037bebe5b34e2b7d78"
     routers:
@@ -37625,6 +37689,11 @@ pairs:
     routers:
       - pool: "0xe6bfd33f52d82ccb5b37e16d3dd81f9ffdabb195"
         protocol: bebop
+  - token0: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    token1: "0xe76c5b78f93909d34404e9eb4c1f19e7582a5de1"
+    routers:
+      - protocol: uniswapv4
+        pool: "0xbe26d0e86426f365a1fe963e58c77432911ac6a61a3141b341b774f00b4ce3d8"
   - token0: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     token1: "0xe76c6c83af64e4c60245d8c7de953df673a7a33d"
     routers:
