@@ -1,0 +1,604 @@
+velora:
+  baseURL: "https://api.paraswap.io"
+  swapPath: "/swap"
+  version: "6.2"
+  deadlineSeconds: 300
+  # RouteX 的 slippage 统一使用基点；100 bps = Velora 的 1%。
+  defaultSlippageBps: "100"
+  # 传给 Velora maxImpact，超过后上游会标记 maxImpactReached。
+  maxImpactPercent: "15"
+  # 可选。需要 Velora partner 归因或费用时填写。
+  partner: ""
+  partnerAddress: ""
+  partnerFeeBps: ""
+  pair:
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 8
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      srcDecimals: 18
+      destDecimals: 8
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 8
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      srcDecimals: 6
+      destDecimals: 8
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xba100000625a3754423978a60c9317c58a424e3d"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xba100000625a3754423978a60c9317c58a424e3d"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 8
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      srcDecimals: 6
+      destDecimals: 8
+    - chainId: 1
+      tokenIn: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      tokenOut: "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd"
+      srcDecimals: 8
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd"
+      tokenOut: "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      srcDecimals: 18
+      destDecimals: 8
+    - chainId: 1
+      tokenIn: "0x6b175474e89094c44da98b954eedeac495271d0f"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0x6b175474e89094c44da98b954eedeac495271d0f"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2"
+      tokenOut: "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+      tokenOut: "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xf280b16ef293d8e534e370794ef26bf312694126"
+      srcDecimals: 18
+      destDecimals: 9
+    - chainId: 1
+      tokenIn: "0xf280b16ef293d8e534e370794ef26bf312694126"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 9
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 9
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44"
+      srcDecimals: 18
+      destDecimals: 9
+    - chainId: 1
+      tokenIn: "0x514910771af9ca656af840dff83e8264ecf986ca"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x514910771af9ca656af840dff83e8264ecf986ca"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f"
+      tokenOut: "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab"
+      tokenOut: "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 6
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x6c3ea9036406852006290770bedfcaba0e23a0e8"
+      srcDecimals: 6
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x881ba05de1e78f549cc63a8f6cabb1d4ad32250d"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xae7ab96520de3a18e5e111b5eaab095312d7fe84"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xd533a949740bb3306d119cc777fa900ba034cd52"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xd533a949740bb3306d119cc777fa900ba034cd52"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7"
+      tokenOut: "0xd533a949740bb3306d119cc777fa900ba034cd52"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xd533a949740bb3306d119cc777fa900ba034cd52"
+      tokenOut: "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x085780639cc2cacd35e474e71f4d000e2405d8f6"
+      tokenOut: "0x01791f726b4103694969820be083196cc7c045ff"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x01791f726b4103694969820be083196cc7c045ff"
+      tokenOut: "0x085780639cc2cacd35e474e71f4d000e2405d8f6"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xae78736cd615f374d3085123a210448e74fc6393"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xae78736cd615f374d3085123a210448e74fc6393"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x98a878b1cd98131b271883b390f68d2c90674665"
+      tokenOut: "0x38eeb52f0771140d10c4e9a9a72349a329fe8a6a"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x38eeb52f0771140d10c4e9a9a72349a329fe8a6a"
+      tokenOut: "0x98a878b1cd98131b271883b390f68d2c90674665"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 6
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c"
+      srcDecimals: 6
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+      tokenOut: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      tokenOut: "0xdc035d45d973e3ec169d2276ddab16f1e407384f"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x8292bb45bf1ee4d140127049757c2e0ff06317ed"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      srcDecimals: 6
+      destDecimals: 8
+    - chainId: 1
+      tokenIn: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 8
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xa3931d71877c0e7a3148cb7eb4463524fec27fbd"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xcacd6fd266af91b8aed52accc382b4e165586e29"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xcacd6fd266af91b8aed52accc382b4e165586e29"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x1aad217b8f78dba5e6693460e8470f8b1a3977f3"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x514910771af9ca656af840dff83e8264ecf986ca"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x514910771af9ca656af840dff83e8264ecf986ca"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x232ce3bd40fcd6f80f3d55a522d03f25df784ee2"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+      tokenOut: "0x01791f726b4103694969820be083196cc7c045ff"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x01791f726b4103694969820be083196cc7c045ff"
+      tokenOut: "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc20059e0317de91738d13af027dfc4a50781b066"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xc20059e0317de91738d13af027dfc4a50781b066"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xda8d6d4c4082bfb296711782f0ead6c4b8ac5256"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xda8d6d4c4082bfb296711782f0ead6c4b8ac5256"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x56072c95faa701256059aa122697b133aded9279"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x56072c95faa701256059aa122697b133aded9279"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0x111111111117dc0aa78b770fa6a738034120c302"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0x111111111117dc0aa78b770fa6a738034120c302"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xaff2565091e7207191dbe340b8528d02fa78d044"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xaff2565091e7207191dbe340b8528d02fa78d044"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      srcDecimals: 18
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xa27ec0006e59f245217ff08cd52a7e8b169e62d2"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xa27ec0006e59f245217ff08cd52a7e8b169e62d2"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xd533a949740bb3306d119cc777fa900ba034cd52"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xd533a949740bb3306d119cc777fa900ba034cd52"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      tokenOut: "0xe92f673ca36c5e2efd2de7628f815f84807e803f"
+      srcDecimals: 6
+      destDecimals: 18
+    - chainId: 1
+      tokenIn: "0xe92f673ca36c5e2efd2de7628f815f84807e803f"
+      tokenOut: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      srcDecimals: 18
+      destDecimals: 6
