@@ -44749,6 +44749,8 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
         assetType: stock
+      - protocol: uniswapv4
+        pool: "0x2c0b391a80adad16de15da07eb414a4a9c9a241a2db263776c99f3f8a8334de4"
   - token0: "0x4680b5150fa334feac7bde722ee47a4ac4bd047b"
     token1: "0x55d398326f99059ff775485246999027b3197955"
     routers:
@@ -58913,6 +58915,8 @@ pairs:
     routers:
       - protocol: pancakev3
         pool: "0x6c67772e37a1797ab765b05d40b92fad25d9b1be"
+      - protocol: uniswapv4
+        pool: "0x0c1a225e22c5c732608a620c0c19ea90e4056e40635f66a38f6505d861e9ec4d"
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0x723cfc07b5d4585a9deb0a957b6e165b8028a8ff"
     routers:
@@ -63631,6 +63635,8 @@ pairs:
   - token0: "0x55d398326f99059ff775485246999027b3197955"
     token1: "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4"
     routers:
+      - protocol: pancakev3
+        pool: "0x33e1e31133a986ffb1a51e3be1e0fc86eb495c2f"
       - pool: "0x91fc7371d6de682a1e8cfcb4eb7da693312a03a4"
         protocol: ondo
         symbol: BILIon
@@ -148883,6 +148889,11 @@ pairs:
     routers:
       - protocol: uniswapv2-standard
         pool: "0xe7a63505b3706ea727c0a51c70a5603bdd9116c6"
+  - token0: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    token1: "0xf3e82ea164cb344b2b11bad4c24b0ea4f7ba4714"
+    routers:
+      - protocol: uniswapv2-standard
+        pool: "0xc2916c7158e464129e38b45c2e2e58dd054f1f24"
   - token0: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     token1: "0xf3e900fcfa507003f98fb2d70dfae48998a02122"
     routers:
