@@ -6091,8 +6091,12 @@ pairs:
         protocol: bebop
       - protocol: native
         pool: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+      - protocol: uniswapv3
+        pool: "0xf98cf0d979cfbb780774f318e3da4f7317af50d7"
       - protocol: uniswapv4
         pool: "0x20c3a15e34e5d88aeba004b0753af69e4f6bea80eae2263f7a92e919cd33cc56"
+      - protocol: uniswapv4
+        pool: "0x21719caab783ad704ec790bbb8e0a6789e144f8525b330a7f89576280f94acf1"
       - protocol: uniswapv4
         pool: "0x4a24fcf3c1cbebd80d09537c7aa15adf2d228aa1b9ba1b0e5fb82e66dc96c0d2"
       - protocol: uniswapv4
@@ -21651,6 +21655,11 @@ pairs:
         protocol: fluid
       - pool: "0xcdb422a853a4fa2deb364317db92ad76d1cb7a8e1b82a32219bcb41720a90228"
         protocol: uniswapv4
+  - token0: "0x80ac24aa929eaf5013f6436cda2a7ba190f5cc0b"
+    token1: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    routers:
+      - protocol: uniswapv3
+        pool: "0xc16bf684dce6d3bbccb324537e5289e896fb5f7f"
   - token0: "0x80c62fe4487e1351b47ba49809ebd60ed085bf52"
     token1: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     routers:
