@@ -1,0 +1,11 @@
+akka:
+  baseURL: "https://api.akka.finance"
+  # RouteX 使用 bps；100 bps 转为 Akka 的 1%，支持 0~500 bps。
+  defaultSlippageBps: "100"
+  pair:
+    - chainId: 1
+      tokenIn: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      tokenOut: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    - chainId: 1
+      tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+      tokenOut: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
