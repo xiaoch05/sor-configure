@@ -19,8 +19,15 @@ pairs:
         protocol: algebrav3-like
         factory: "0x1a3c9b1d2f0529d97f2afc5136cc23e58f1fd35b"
   - token0: "0x004b506865409877c9fa29bfb1eba929984b9bbc"
+    token1: "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+    routers:
+      - protocol: uniswapv3
+        pool: "0x14cecb8a37013853ad071fc877705a8ecc9e77b7"
+  - token0: "0x004b506865409877c9fa29bfb1eba929984b9bbc"
     token1: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
     routers:
+      - protocol: uniswapv3
+        pool: "0x09328be718d89228a985471bb470988a34d0b162"
       - protocol: uniswapv4
         pool: "0x52b42d5f1e4a0d4bce86667bb069cf257e512d98ce617f549f6e4fbb0bee41e6"
   - token0: "0x018d6a98555686be1ca5b6896ef6c42cf67e2bd1"
