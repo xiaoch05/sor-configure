@@ -3233,6 +3233,8 @@ pairs:
         duration: long
         maxTradeAmount: "2000000"
         assetType: stock
+      - protocol: pancakev3
+        pool: "0x07e9a5dca4b3f46ab9b87bf8e18e0a358b5d97df"
   - token0: "0x04b7b4374bf36bae9daf9bfddb941b7589fd4612"
     token1: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     routers:
@@ -146614,6 +146616,11 @@ pairs:
     routers:
       - protocol: uniswapv2-standard
         pool: "0x3a9b169348ca219e402075d58c8e1826b951c10e"
+  - token0: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+    token1: "0xe686d6874922579e8ca8048435e5f6b8d8e113e3"
+    routers:
+      - protocol: uniswapv2-standard
+        pool: "0x86bb8dc553846e3a22d00eb31be794d389704f61"
   - token0: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
     token1: "0xe68769970d84d30584c2a61ecaf5a1acbdfc906e"
     routers:
