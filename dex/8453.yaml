@@ -22831,6 +22831,8 @@ pairs:
     routers:
       - protocol: uniswapv3
         pool: "0x17ea71d7e2dfb58f6b7e95c2dddad863e225091c"
+      - protocol: uniswapv3
+        pool: "0x1c75709e20d203e8de915d0a1ac8dc4e40fe3d29"
       - pool: "0x97f0470819080e85724d42ba4325c56698c3b387"
         protocol: uniswapv3
       - pool: "0xe8833415bd6aee9c0c7b6aad7dc80421c3f28ca1"
@@ -33571,9 +33573,6 @@ pairs:
   - token0: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     token1: "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2"
     routers:
-      - pool: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
-        protocol: cross-market
-        fee: 50
       - protocol: uniswapv3
         pool: "0x5a688bf3df846bec15569930418076717654a3f6"
       - pool: "0x5f07bb9fee6062e9d09a52e6d587c64bad6ba706"
@@ -33582,6 +33581,9 @@ pairs:
         protocol: uniswapv2-standard
       - pool: "0x82ccd0de0293ccbd2184901a69fdc2dd8073320e"
         protocol: uniswapv3
+      - pool: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+        protocol: cross-market
+        fee: 50
       - pool: "0x96508ae8037c6bd16162620187691f1c1e3e07c1"
         protocol: uniswapv2-aerodrome
         router: "0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43"
