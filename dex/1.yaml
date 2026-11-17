@@ -7730,9 +7730,13 @@ pairs:
         maxTradeAmount: "500000"
         assetType: stock
       - protocol: uniswapv3
+        pool: "0x6ee97dea63c77d1aee3f403bff4ad1def3fb6683"
+      - protocol: uniswapv3
         pool: "0xc9b4bc7c15423fcfe6b75ab5118ba773945a3a46"
       - protocol: uniswapv3
         pool: "0xf5294094bce435bfbd0ec488be5c462aaf32bc7a"
+      - protocol: uniswapv3
+        pool: "0xfd4414d70d3d5c3f21d59f75bd1cdd86fafa7d9c"
       - protocol: uniswapv4
         pool: "0xa9a6651fba74df1aab94065ffaabe750d6ed835b94a9e28925ec79beec2d5f73"
       - protocol: uniswapv4
@@ -39944,6 +39948,11 @@ pairs:
         pool: "0xb8f5bc3a4ab43f9e55ebdc6686b9dda2cb1d45cb"
       - pool: "0xdac17f958d2ee523a2206206994597c13d831ec7"
         protocol: native
+  - token0: "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    token1: "0xf40c07d7cd45f291b93ca674db66a15c8a98957e"
+    routers:
+      - protocol: uniswapv4
+        pool: "0x6779ef0b4b8274066cc32cd69fc3555f6b3ab26c91ae3688b1283c646e7d2921"
   - token0: "0xdac17f958d2ee523a2206206994597c13d831ec7"
     token1: "0xf411903cbc70a74d22900a5de66a2dda66507255"
     routers:
